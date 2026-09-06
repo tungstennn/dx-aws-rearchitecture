@@ -1,0 +1,1 @@
+-- Sales table DDL will be added after inspecting the source CSV schema.

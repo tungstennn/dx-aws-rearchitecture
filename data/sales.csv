@@ -1,0 +1,660 @@
+OrderID,OrderLineID,OrderDate,Region,SalesChannel,SalesRep,Category,Product,UnitsSold,UnitPrice,DiscountPct,Revenue,Cost,Profit,CustomerSatisfaction,Returned
+ORD-1188,ORD-1188-L1,2024-01-04,West,Online,Sam Patel,Home Goods,Cookware Set,4,32.89,0,131.56,77.81,53.75,1,No
+ORD-1188,ORD-1188-L2,2024-01-04,West,Online,Sam Patel,Electronics,Headphones,13,429.13,15,4741.89,2674.99,2066.9,5,No
+ORD-1188,ORD-1188-L3,2024-01-04,West,Online,Sam Patel,Apparel,Hat,12,176.05,0,2112.6,1011.91,1100.69,4,No
+ORD-1102,ORD-1102-L1,2024-01-09,North,Partner,Jordan Lee,Apparel,Hat,12,50.26,0,603.12,344.43,258.69,2,No
+ORD-1102,ORD-1102-L2,2024-01-09,North,Partner,Jordan Lee,Apparel,T-Shirt,13,458.78,20,4771.31,3369.48,1401.83,5,No
+ORD-1102,ORD-1102-L3,2024-01-09,North,Partner,Jordan Lee,Electronics,Smartphone,4,360.56,20,1153.79,1003.85,149.94,5,No
+ORD-1249,ORD-1249-L1,2024-01-10,South,Partner,Morgan Diaz,Apparel,Hat,10,233.36,20,1866.88,1330.97,535.91,4,No
+ORD-1008,ORD-1008-L1,2024-01-12,North,Phone,Casey Ruiz,Apparel,Hat,6,413.8,15,2110.38,1645.49,464.89,3,No
+ORD-1048,ORD-1048-L1,2024-01-15,Central,Partner,Alex Kim,Electronics,Tablet,4,586.45,0,2345.8,1289.05,1056.75,3,No
+ORD-1259,ORD-1259-L1,2024-01-16,West,In-Store,Sam Patel,Home Goods,Vacuum,15,630.26,0,9453.9,4718.2,4735.7,2,Yes
+ORD-1064,ORD-1064-L1,2024-01-17,South,Phone,Alex Kim,Home Goods,Candle,4,673.63,5,2559.79,1440.17,1119.62,3,No
+ORD-1046,ORD-1046-L1,2024-01-22,East,Online,Jordan Lee,Home Goods,Vacuum,6,897.27,5,5114.44,3178.68,1935.76,4,No
+ORD-1046,ORD-1046-L2,2024-01-22,East,Online,Jordan Lee,Home Goods,Vacuum,14,306.63,15,3648.9,1851.84,1797.06,2,No
+ORD-1205,ORD-1205-L1,2024-01-23,Central,In-Store,Alex Kim,Electronics,Tablet,21,237.64,10,4491.4,2929.09,1562.31,5,No
+ORD-1024,ORD-1024-L1,2024-01-29,North,Phone,Jordan Lee,Apparel,T-Shirt,4,540.94,0,2163.76,1338.42,825.34,3,No
+ORD-1024,ORD-1024-L2,2024-01-29,North,Phone,Jordan Lee,Electronics,Tablet,19,179.16,0,3404.04,2085.44,1318.6,1,No
+ORD-1002,ORD-1002-L1,2024-02-02,North,Online,Jordan Lee,Electronics,Monitor,7,647.25,15,3851.14,2553.0,1298.14,2,No
+ORD-1013,ORD-1013-L1,2024-02-02,East,Online,Taylor Chen,Home Goods,Cookware Set,18,127.75,10,2069.55,1317.3,752.25,2,No
+ORD-1267,ORD-1267-L1,2024-02-02,Central,Partner,Casey Ruiz,Apparel,T-Shirt,12,206.43,15,2105.59,1043.53,1062.06,2,No
+ORD-1267,ORD-1267-L2,2024-02-02,Central,Partner,Casey Ruiz,Electronics,Tablet,21,64.01,10,1209.79,837.5,372.29,4,No
+ORD-1185,ORD-1185-L1,2024-02-04,East,Online,Sam Patel,Electronics,Laptop,11,161.38,5,1686.42,795.76,890.66,1,No
+ORD-1233,ORD-1233-L1,2024-02-07,Central,Phone,Taylor Chen,Home Goods,Cookware Set,12,359.31,20,3449.38,2487.35,962.03,3,No
+ORD-1233,ORD-1233-L2,2024-02-07,Central,Phone,Taylor Chen,Electronics,Tablet,12,456.92,15,4660.58,2586.15,2074.43,5,No
+ORD-1233,ORD-1233-L3,2024-02-07,Central,Phone,Taylor Chen,Furniture,Sofa,6,169.43,10,914.92,607.74,307.18,2,No
+ORD-1286,ORD-1286-L1,2024-02-12,Central,Partner,Casey Ruiz,Electronics,Monitor,4,411.92,20,1318.14,1092.96,225.18,2,No
+ORD-1074,ORD-1074-L1,2024-02-13,West,Online,Morgan Diaz,Apparel,Jeans,14,520.32,15,6191.81,4312.72,1879.09,3,No
+ORD-1074,ORD-1074-L2,2024-02-13,West,Online,Morgan Diaz,Electronics,Headphones,6,723.17,10,3905.12,2334.52,1570.6,3,No
+ORD-1074,ORD-1074-L3,2024-02-13,West,Online,Morgan Diaz,Electronics,Smartphone,14,534.09,10,6729.53,3167.32,3562.21,3,No
+ORD-1074,ORD-1074-L4,2024-02-13,West,Online,Morgan Diaz,Furniture,Bookshelf,25,159.63,10,3591.68,2354.41,1237.27,5,No
+ORD-1128,ORD-1128-L1,2024-02-17,North,Phone,Taylor Chen,Electronics,Smartphone,11,23.93,0,263.23,151.65,111.58,4,No
+ORD-1128,ORD-1128-L2,2024-02-17,North,Phone,Taylor Chen,Apparel,Jacket,19,224.01,20,3404.95,2787.09,617.86,5,No
+ORD-1347,ORD-1347-L1,2024-02-18,South,Phone,Sam Patel,Furniture,Lamp,6,643.5,0,3861.0,1755.54,2105.46,2,No
+ORD-1347,ORD-1347-L2,2024-02-18,South,Phone,Sam Patel,Furniture,Chair,8,114.05,0,912.4,522.22,390.18,4,No
+ORD-1063,ORD-1063-L1,2024-02-21,East,In-Store,Jordan Lee,Furniture,Desk,25,503.23,10,11322.68,5847.35,5475.33,2,No
+ORD-1063,ORD-1063-L2,2024-02-21,East,In-Store,Jordan Lee,Furniture,Lamp,1,256.76,0,256.76,178.77,77.99,5,No
+ORD-1063,ORD-1063-L3,2024-02-21,East,In-Store,Jordan Lee,Furniture,Desk,22,781.13,0,17184.86,6950.56,10234.3,2,No
+ORD-1277,ORD-1277-L1,2024-02-25,South,In-Store,Sam Patel,Electronics,Headphones,15,429.35,0,6440.25,2979.92,3460.33,5,No
+ORD-1159,ORD-1159-L1,2024-03-02,West,Phone,Casey Ruiz,Home Goods,Towel Set,23,368.02,15,7194.79,4748.3,2446.49,5,No
+ORD-1159,ORD-1159-L2,2024-03-02,West,Phone,Casey Ruiz,Electronics,Headphones,3,465.05,0,1395.15,965.85,429.3,2,No
+ORD-1060,ORD-1060-L1,2024-03-05,West,Phone,Casey Ruiz,Furniture,Desk,2,280.87,5,533.65,244.26,289.39,2,No
+ORD-1254,ORD-1254-L1,2024-03-06,West,Online,Alex Kim,Electronics,Laptop,9,560.1,0,5040.9,3006.64,2034.26,4,No
+ORD-1254,ORD-1254-L2,2024-03-06,West,Online,Alex Kim,Furniture,Bookshelf,15,567.56,0,8513.4,4750.67,3762.73,2,Yes
+ORD-1254,ORD-1254-L3,2024-03-06,West,Online,Alex Kim,Apparel,Shoes,16,425.79,20,5450.11,3829.9,1620.21,3,No
+ORD-1119,ORD-1119-L1,2024-03-09,North,Online,Morgan Diaz,Electronics,Smartphone,24,49.36,5,1125.41,557.14,568.27,2,No
+ORD-1119,ORD-1119-L2,2024-03-09,North,Online,Morgan Diaz,Electronics,Smartphone,17,894.19,0,15201.23,9800.78,5400.45,5,No
+ORD-1297,ORD-1297-L1,2024-03-10,East,Phone,Taylor Chen,Electronics,Laptop,22,306.61,5,6408.15,4164.08,2244.07,5,No
+ORD-1297,ORD-1297-L2,2024-03-10,East,Phone,Taylor Chen,Furniture,Chair,11,752.09,15,7032.04,4498.29,2533.75,4,No
+ORD-1011,ORD-1011-L1,2024-03-11,Central,In-Store,Jordan Lee,Furniture,Bookshelf,17,786.46,5,12701.33,9215.94,3485.39,5,No
+ORD-1011,ORD-1011-L2,2024-03-11,Central,In-Store,Jordan Lee,Furniture,Bookshelf,13,895.67,15,9897.15,5961.88,3935.27,5,No
+ORD-1321,ORD-1321-L1,2024-03-13,Central,Phone,Morgan Diaz,Home Goods,Cookware Set,21,579.89,0,12177.69,7299.09,4878.6,3,No
+ORD-1098,ORD-1098-L1,2024-03-21,East,In-Store,Casey Ruiz,Apparel,Jacket,21,279.5,10,5282.55,2512.31,2770.24,2,No
+ORD-1098,ORD-1098-L2,2024-03-21,East,In-Store,Casey Ruiz,Furniture,Chair,22,565.78,10,11202.44,6239.59,4962.85,5,Yes
+ORD-1098,ORD-1098-L3,2024-03-21,,In-Store,Casey Ruiz,Electronics,Laptop,2,854.2,20,1366.72,978.97,387.75,2,No
+ORD-1098,ORD-1098-L4,2024-03-21,East,In-Store,Casey Ruiz,Home Goods,Candle,21,36.94,15,659.38,437.26,222.12,3,No
+ORD-1109,ORD-1109-L1,2024-03-21,East,Partner,Casey Ruiz,Home Goods,Cookware Set,7,746.87,0,5228.09,3554.62,1673.47,3,No
+ORD-1092,ORD-1092-L1,2024-03-22,East,Phone,Sam Patel,Home Goods,Cookware Set,23,405.07,5,8850.78,3845.03,5005.75,3,No
+ORD-1068,ORD-1068-L1,2024-03-28,North,Partner,Alex Kim,Apparel,Jacket,18,63.37,10,1026.59,648.47,378.12,1,No
+ORD-1068,ORD-1068-L2,2024-03-28,North,Partner,Alex Kim,Home Goods,Blender,10,544.35,0,5443.5,2346.58,3096.92,5,No
+ORD-1089,ORD-1089-L1,2024-03-28,Central,Phone,Alex Kim,Electronics,Tablet,16,48.74,5,740.85,541.45,199.4,3,No
+ORD-1089,ORD-1089-L2,2024-03-28,Central,Phone,Alex Kim,Apparel,T-Shirt,12,224.59,15,2290.82,1585.99,704.83,5,No
+ORD-1089,ORD-1089-L3,2024-03-28,Central,Phone,Alex Kim,Apparel,Jacket,2,323.54,0,647.08,416.75,230.33,2,No
+ORD-1089,ORD-1089-L4,2024-03-28,Central,Phone,Alex Kim,Home Goods,Towel Set,21,172.22,0,3616.62,1515.11,2101.51,4,Yes
+ORD-1097,ORD-1097-L1,2024-03-29,North,Phone,Morgan Diaz,Home Goods,Candle,14,694.55,20,7778.96,5566.53,2212.43,2,No
+ORD-1097,ORD-1097-L2,2024-03-29,North,Phone,Morgan Diaz,Electronics,Tablet,15,615.29,0,9229.35,4047.07,5182.28,5,No
+ORD-1097,ORD-1097-L3,2024-03-29,North,Phone,Morgan Diaz,Furniture,Chair,14,457.54,20,5124.45,2668.71,2455.74,1,No
+ORD-1097,ORD-1097-L4,2024-03-29,North,Phone,Morgan Diaz,Apparel,Jacket,6,297.16,15,1515.52,833.79,681.73,5,No
+ORD-1282,ORD-1282-L1,2024-03-30,West,In-Store,Morgan Diaz,Furniture,Sofa,10,819.65,0,8196.5,4383.08,3813.42,2,No
+ORD-1077,ORD-1077-L1,2024-04-02,Central,Partner,Morgan Diaz,Electronics,Tablet,19,590.13,0,11212.47,6520.07,4692.4,5,No
+ORD-1077,ORD-1077-L2,2024-04-02,Central,Partner,Morgan Diaz,Electronics,Tablet,4,731.75,20,2341.6,1472.37,869.23,1,No
+ORD-1101,ORD-1101-L1,2024-04-02,West,Partner,Jordan Lee,Apparel,T-Shirt,2,260.4,10,468.72,346.18,122.54,4,No
+ORD-1272,ORD-1272-L1,2024-04-04,Central,Partner,Taylor Chen,Electronics,Headphones,16,163.87,20,2097.54,1755.92,341.62,5,No
+ORD-1272,ORD-1272-L2,2024-04-04,Central, online ,Taylor Chen,Electronics,Monitor,21,277.34,15,4950.52,3742.02,1208.5,4,Yes
+ORD-1272,ORD-1272-L3,2024-04-04,Central,Partner,Taylor Chen,Electronics,Headphones,12,793.01,5,9040.31,4995.55,4044.76,1,No
+ORD-1272,ORD-1272-L4,2024-04-04,Central,Partner,Taylor Chen,Furniture,Lamp,1,574.15,15,488.03,295.54,192.49,3,No
+ORD-1186,ORD-1186-L1,2024-04-05,East,Partner,Casey Ruiz,Furniture,Lamp,14,149.81,0,2097.34,1047.26,1050.08,2,No
+ORD-1126,ORD-1126-L1,2024-04-08,Central,In-Store,Jordan Lee,Apparel,Shoes,9,717.48,0,6457.32,3305.6,3151.72,4,No
+ORD-1139,ORD-1139-L1,2024-04-09,West,Partner,Sam Patel,Electronics,Laptop,1,765.76,15,650.9,331.43,319.47,2,No
+ORD-1335,ORD-1335-L1,2024-04-10,South,Partner,Jordan Lee,Furniture,Desk,16,530.72,0,8491.52,5665.09,2826.43,2,No
+ORD-1043,ORD-1043-L1,2024-04-11,South,In-Store,Sam Patel,Furniture,Chair,6,501.26,0,3007.56,1205.44,1802.12,4,No
+ORD-1043,ORD-1043-L2,2024-04-11,South,In-Store,Sam Patel,Home Goods,Vacuum,2,216.0,15,367.2,209.44,157.76,4,Yes
+ORD-1062,ORD-1062-L1,2024-04-11,East,Phone,Alex Kim,Furniture,Desk,15,91.58,0,1373.7,813.93,559.77,5,No
+ORD-1087,ORD-1087-L1,2024-04-11,East,In-Store,Jordan Lee,Home Goods,Cookware Set,25,637.92,5,15150.6,9323.27,5827.33,1,Yes
+ORD-1018,ORD-1018-L1,2024-04-12,North,In-Store,Taylor Chen,Apparel,T-Shirt,8,338.87,0,2710.96,1440.75,1270.21,5,No
+ORD-1209,ORD-1209-L1,2024-04-13,East,In-Store,Morgan Diaz,Apparel,Shoes,15,54.56,20,654.72,370.25,284.47,1,No
+ORD-1209,ORD-1209-L2,2024-04-13,East,In-Store,Morgan Diaz,Apparel,Shoes,14,667.29,0,9342.06,6122.54,3219.52,1,Yes
+ORD-1209,ORD-1209-L3,2024-04-13,East,In-Store,Morgan Diaz,Furniture,Chair,11,328.19,5,3429.59,2478.42,951.17,3,No
+ORD-1209,ORD-1209-L4,2024-04-13,East,In-Store,Morgan Diaz,Electronics,Headphones,11,172.74,5,1805.13,988.22,816.91,4,No
+ORD-1171,ORD-1171-L1,2024-04-14,South,Online,Alex Kim,Furniture,Chair,7,743.06,0,5201.42,3151.47,2049.95,1,No
+ORD-1085,ORD-1085-L1,2024-04-15,Central,Online,Sam Patel,Furniture,Bookshelf,15,815.71,0,12235.65,7944.78,4290.87,1,yes
+ORD-1203,ORD-1203-L1,2024-04-15,West,Phone,Jordan Lee,Electronics,Headphones,10,415.76,10,3741.84,2406.88,1334.96,3,No
+ORD-1066,ORD-1066-L1,2024-04-20,West,Partner,Alex Kim,Apparel,Jeans,5,68.45,0,342.25,201.0,141.25,5,No
+ORD-1066,ORD-1066-L2,2024-04-20,West,Partner,Alex Kim,Apparel,Hat,20,482.19,5,9161.61,5320.15,3841.46,4,No
+ORD-1066,ORD-1066-L3,2024-04-20,West,Partner,Alex Kim,Electronics,Monitor,24,780.28,5,17790.38,10027.53,7762.85,2,No
+ORD-1065,ORD-1065-L1,2024-04-21,West,In-Store,Taylor Chen,Apparel,Hat,21,867.97,0,18227.37,12751.43,5475.94,4,No
+ORD-1007,ORD-1007-L1,2024-04-22,South,In-Store,Casey Ruiz,Electronics,Tablet,13,540.33,5,6673.08,3924.71,2748.37,5,No
+ORD-1147,ORD-1147-L1,2024-04-25,Central,Online,Sam Patel,Apparel,Jeans,25,47.02,15,999.17,625.85,373.32,2,No
+ORD-1147,ORD-1147-L2,2024-04-25,Central,Online,Sam Patel,Electronics,Smartphone,10,788.57,0,7885.7,4218.22,3667.48,3,No
+ORD-1147,ORD-1147-L3,2024-04-25,Central,Online,Sam Patel,Electronics,Tablet,4,700.3,0,2801.2,1296.85,1504.35,5,No
+ORD-1225,ORD-1225-L1,2024-04-26,West,Phone,Taylor Chen,Electronics,Monitor,25,343.7,20,6874.0,4748.39,2125.61,4,Yes
+ORD-1225,ORD-1225-L2,2024-04-26,West,Phone,Taylor Chen,Furniture,Bookshelf,17,83.28,0,1415.76,637.4,778.36,5,No
+ORD-1316,ORD-1316-L1,2024-04-28,North,In-Store,Morgan Diaz,Apparel,Hat,24,853.93,10,18444.89,9634.35,8810.54,4,No
+ORD-1334,ORD-1334-L1,2024-04-28,North,In-Store,Casey Ruiz, electronics,Hat,7,674.9,0,4724.3,2215.79,2508.51,1,No
+ORD-1122,ORD-1122-L1,2024-04-30,West,In-Store,Casey Ruiz,Furniture,Sofa,8,501.34,20,3208.58,1944.87,1263.71,4,No
+ORD-1122,ORD-1122-L2,2024-04-30,West,In-Store,Casey Ruiz,Apparel,Shoes,9,330.07,5,2822.1,1603.55,1218.55,4,No
+ORD-1073,ORD-1073-L1,2024-05-02,North,Partner,Casey Ruiz,Furniture,Sofa,18,636.26,10,10307.41,6500.74,3806.67,3,Yes
+ORD-1289,ORD-1289-L1,2024-05-06,North,Online,Casey Ruiz,Apparel,T-Shirt,17,639.47,15,9240.34,6928.3,2312.04,5,No
+ORD-1195,ORD-1195-L1,2024-05-15,South,Online,Jordan Lee,Apparel,Shoes,14,806.97,20,9038.06,5700.9,3337.16,3,No
+ORD-1061,ORD-1061-L1,2024-05-18,West,Partner,Sam Patel,Home Goods,Candle,24,656.66,5,14971.85,9400.38,5571.47,4,No
+ORD-1061,ORD-1061-L2,2024-05-18,West,Partner,Sam Patel,Apparel,T-Shirt,23,339.76,5,7423.76,4168.31,3255.45,2,No
+ORD-1255,ORD-1255-L1,2024-05-18,Central,In-Store,Taylor Chen,Home Goods,Candle,21,579.17,0,12162.57,8181.48,3981.09,4,No
+ORD-1255,ORD-1255-L2,2024-05-18,Central,In-Store,Taylor Chen,Electronics,Tablet,10,335.54,0,3355.4,1498.91,1856.49,1,Yes
+ORD-1256,ORD-1256-L1,2024-05-19,East,Phone,Morgan Diaz,Home Goods,Towel Set,10,18.12,5,172.14,115.86,56.28,5,No
+ORD-1256,ORD-1256-L2,2024-05-19,East,Phone,Morgan Diaz,Electronics,Monitor,12,177.82,10,1920.46,1133.35,787.11,2,No
+ORD-1111,ORD-1111-L1,2024-05-20,North,In-Store,Morgan Diaz,Home Goods,Towel Set,21,187.51,0,3937.71,1954.48,1983.23,1,No
+ORD-1111,ORD-1111-L2,2024-05-20,North,In-Store,Morgan Diaz,Electronics,Monitor,8,486.28,15,3306.7,2548.5,758.2,1,No
+ORD-1175,ORD-1175-L1,2024-05-20,West,In-Store,Casey Ruiz,Furniture,Lamp,1,890.56,20,712.45,546.81,165.64,4,No
+ORD-1175,ORD-1175-L2,2024-05-20,West,In-Store,Casey Ruiz,Home Goods,Vacuum,19,457.12,5,8251.02,4178.75,4072.27,1,No
+ORD-1175,ORD-1175-L3,2024-05-20,West,In-Store,Casey Ruiz,Furniture,Desk,25,260.02,20,5200.4,4533.83,666.57,5,No
+ORD-1207,ORD-1207-L1,2024-05-20,West,Online,Taylor Chen,Electronics,Headphones,4,708.43,5,2692.03,1302.36,1389.67,2,No
+ORD-1207,ORD-1207-L2,2024-05-20,West,Online,Taylor Chen,Furniture,Bookshelf,23,374.67,0,8617.41,3548.84,5068.57,4,No
+ORD-1283,ORD-1283-L1,2024-05-21,Central,In-Store,Jordan Lee,Furniture,Sofa,25,139.18,10,3131.55,2349.13,782.42,3,Yes
+ORD-1129,ORD-1129-L1,2024-05-23,North,Phone,Alex Kim,Furniture,Desk,11,548.59,10,5431.04,4142.42,1288.62,4,No
+ORD-1103,ORD-1103-L1,2024-05-27,South,Partner,Taylor Chen,Electronics,Smartphone,23,306.4,5,6694.84,3916.83,2778.01,2,No
+ORD-1317,ORD-1317-L1,2024-05-28,Central,Partner,Alex Kim,Home Goods,Towel Set,22,290.95,10,5760.81,3871.67,1889.14,1,No
+ORD-1299,ORD-1299-L1,2024-06-01,East,Online,Sam Patel,Furniture,Lamp,20,356.7,10,6420.6,3103.67,3316.93,3,No
+ORD-1299,ORD-1299-L2,2024-06-01,East,Online,Sam Patel,Apparel,T-Shirt,9,378.33,5,3234.72,2257.89,976.83,3,No
+ORD-1299,ORD-1299-L3,2024-06-01,East,Online,  Jordan Lee,Apparel,Jacket,17,279.05,0,4743.85,2430.11,2313.74,1,No
+ORD-1299,ORD-1299-L4,2024-06-01,East,Online,Sam Patel,Electronics,Tablet,17,32.18,5,519.71,367.34,152.37,2,No
+ORD-1238,ORD-1238-L1,2024-06-02,Central,Online,Jordan Lee,Electronics,Monitor,17,679.61,0,11553.37,6292.8,5260.57,2,No
+ORD-1238,ORD-1238-L2,2024-06-02,Central,Online,Jordan Lee,Electronics,Tablet,17,384.4,20,5227.84,2699.08,2528.76,5,No
+ORD-1315,ORD-1315-L1,2024-06-06,West,Partner,Morgan Diaz,Home Goods,Cookware Set,7,524.19,20,2935.46,1847.59,1087.87,3,No
+ORD-1270,ORD-1270-L1,2024-06-10,Central,Partner,Sam Patel,Apparel,Shoes,14,690.11,5,9178.46,6259.19,2919.27,3,No
+ORD-1270,ORD-1270-L2,2024-06-10,Central,Partner,Sam Patel,Furniture,Sofa,25,499.7,15,10618.62,5949.26,4669.36,4,No
+ORD-1270,ORD-1270-L3,2024-06-10,Central,Partner,Sam Patel,Home Goods,Blender,24,40.84,0,980.16,567.25,412.91,5,No
+ORD-1270,ORD-1270-L4,2024-06-10,Central,Partner,Sam Patel,Apparel,T-Shirt,10,886.1,0,8861.0,5819.16,3041.84,1,No
+ORD-1030,ORD-1030-L1,2024-06-11,West,Partner,Sam Patel,Apparel,Jeans,16,567.8,0,9084.8,4832.77,4252.03,3,No
+ORD-1030,ORD-1030-L2,2024-06-11,West,Partner,Sam Patel,Apparel,Shoes,18,81.7,0,1470.6,690.27,780.33,2,No
+ORD-1030,ORD-1030-L3,2024-06-11,West,Partner,Sam Patel,Electronics,Tablet,14,304.47,5,4049.45,2236.71,1812.74,2,No
+ORD-1290,ORD-1290-L1,2024-06-12,West,Partner,Alex Kim,Apparel,Jeans,22,777.77,0,17110.94,11304.27,5806.67,2,No
+ORD-1290,ORD-1290-L2,2024-06-12,West,Partner,Alex Kim,Electronics,Tablet,10,285.46,20,2283.68,1964.79,318.89,3,No
+ORD-1290,ORD-1290-L3,2024-06-12,West,Partner,Alex Kim,Electronics,Smartphone,7,13.13,20,73.53,43.74,29.79,4,No
+ORD-1250,ORD-1250-L1,2024-06-16,North,In-Store,Sam Patel,Electronics,Tablet,24,307.83,0,7387.92,3753.74,3634.18,5,No
+ORD-1250,ORD-1250-L2,2024-06-16,North,In-Store,Sam Patel,Apparel,Shoes,1,376.46,0,376.46,248.54,127.92,5,No
+ORD-1083,ORD-1083-L1,2024-06-18,West,Online,Morgan Diaz,Furniture,Sofa,20,263.58,15,4480.86,3348.2,1132.66,2,No
+ORD-1036,ORD-1036-L1,2024-06-20,Central,Online,Jordan Lee,Electronics,Monitor,1,836.7,10,753.03,504.7,248.33,,No
+ORD-1036,ORD-1036-L2,2024-06-20,Central,Online,Jordan Lee,Furniture,Desk,19,624.64,15,10087.94,5611.92,4476.02,3,No
+ORD-1036,ORD-1036-L3,2024-06-20,Central,Online,Jordan Lee,Electronics,Monitor,2,319.0,5,606.1,381.82,224.28,1,No
+ORD-1036,ORD-1036-L4,2024-06-20,Central,Online,Jordan Lee,Apparel,T-Shirt,14,741.86,0,10386.04,5505.19,4880.85,3,No
+ORD-1199,ORD-1199-L1,2024-06-23,Central,In-Store,Sam Patel,Furniture,Bookshelf,24,729.42,20,14004.86,11795.38,2209.48,3,No
+ORD-1304,ORD-1304-L1,2024-06-23,East,Phone,Taylor Chen,Electronics,Tablet,23,719.1,0,16539.3,9375.22,7164.08,1,No
+ORD-1304,ORD-1304-L2,2024-06-23,East,Phone,Taylor Chen,Home Goods,Towel Set,19,377.95,10,6462.95,3397.41,3065.54,2,No
+ORD-1302,ORD-1302-L1,2024-06-24,North,Phone,Taylor Chen,Home Goods,Blender,5,35.79,15,152.11,74.29,77.82,4,Yes
+ORD-1302,ORD-1302-L2,2024-06-24,North,Phone,Taylor Chen,Home Goods,Towel Set,6,637.15,10,3440.61,2251.08,1189.53,4,No
+ORD-1302,ORD-1302-L3,2024-06-24,North,Phone,Taylor Chen,Apparel,Shoes,7,644.47,15,3834.6,2899.81,934.79,1,No
+ORD-1078,ORD-1078-L1,2024-06-25,North,In-Store,Casey Ruiz,Home Goods,Candle,17,552.72,0,9396.24,4809.52,4586.72,3,No
+ORD-1217,ORD-1217-L1,2024-06-26,South,Online,Morgan Diaz,Apparel,Jeans,13,382.6,10,4476.42,3356.19,1120.23,2,No
+ORD-1217,ORD-1217-L2,2024-06-26,South,Online,Morgan Diaz,Apparel,Shoes,15,726.26,0,10893.9,5706.48,5187.42,5,No
+ORD-1112,ORD-1112-L1,2024-06-28,West,In-Store,Alex Kim,Home Goods,Towel Set,6,843.57,20,4049.14,3430.69,618.45,1,Yes
+ORD-1112,ORD-1112-L2,2024-06-28,West,In-Store,Alex Kim,Electronics,Headphones,10,414.36,15,3522.06,2332.81,1189.25,4,No
+ORD-1112,ORD-1112-L3,2024-06-28,West,In-Store,Alex Kim,Furniture,Lamp,15,252.82,20,3033.84,1645.08,1388.76,2,No
+ORD-1112,ORD-1112-L4,2024-06-28,West,In-Store,Alex Kim,Apparel,Jacket,1,665.58,20,532.46,325.14,207.32,2,No
+ORD-1222,ORD-1222-L1,2024-06-30,North,In-Store,Jordan Lee,Electronics,Tablet,2,391.36,10,704.45,375.14,329.31,2,No
+ORD-1222,ORD-1222-L2,2024-06-30,North,In-Store,Jordan Lee,Apparel,T-Shirt,11,425.02,0,4675.22,1926.11,2749.11,3,No
+ORD-1009,ORD-1009-L1,2024-07-01,Central,Online,Casey Ruiz,Furniture,Chair,12,688.62,10,7437.1,5669.13,1767.97,5,No
+ORD-1237,ORD-1237-L1,2024-07-03,Central,Partner,Taylor Chen,Electronics,Headphones,3,202.76,10,547.45,424.48,122.97,4,No
+ORD-1237,ORD-1237-L2,2024/07/03,Central,Partner,Taylor Chen,Home Goods,Candle,5,717.2,20,2868.8,2260.07,608.73,5,No
+ORD-1237,ORD-1237-L3,2024-07-03,Central,Partner,Taylor Chen,Apparel,Jacket,24,620.17,5,14139.88,8617.29,5522.59,1,No
+ORD-1237,ORD-1237-L4,2024-07-03,Central,Partner,Taylor Chen,Home Goods,Cookware Set,4,24.73,10,89.03,65.08,23.95,5,No
+ORD-1348,ORD-1348-L1,2024-07-07,South,Online,Casey Ruiz,Apparel,Jacket,12,409.09,0,4909.08,2749.54,2159.54,1,No
+ORD-1269,ORD-1269-L1,2024-07-13,South,In-Store,Taylor Chen,Furniture,Lamp,24,506.74,15,10337.5,5249.68,5087.82,5,No
+ORD-1269,ORD-1269-L2,2024-07-13,South,In-Store,Taylor Chen,Home Goods,Towel Set,4,158.45,0,633.8,358.09,275.71,5,No
+ORD-1091,ORD-1091-L1,2024-07-14,East,Phone,Alex Kim,Apparel,Shoes,4,721.4,5,2741.32,1924.25,817.07,4,No
+ORD-1091,ORD-1091-L2,2024-07-14,East,Phone,Alex Kim,Home Goods,Vacuum,6,451.61,5,2574.18,1382.48,1191.7,5,No
+ORD-1091,ORD-1091-L3,2024-07-14,East,Phone,Alex Kim,Electronics,Tablet,3,393.23,20,943.75,535.74,408.01,3,No
+ORD-1124,ORD-1124-L1,2024-07-19,East,In-Store,Morgan Diaz,Furniture,Sofa,18,592.59,15,9066.63,5346.85,3719.78,4,No
+ORD-1124,ORD-1124-L2,2024-07-19,East,In-Store,Morgan Diaz,Home Goods,Towel Set,6,662.16,0,3972.96,1790.93,2182.03,5,No
+ORD-1215,ORD-1215-L1,2024-07-19,South,Online,Morgan Diaz,Furniture,Bookshelf,4,683.85,0,,1854.57,880.83,5,No
+ORD-1275,ORD-1275-L1,2024-07-19,Central,In-Store,Jordan Lee,Home Goods,Vacuum,22,832.47,0,18314.34,7944.01,10370.33,4,No
+ORD-1057,ORD-1057-L1,2024-07-22,West,Partner,Alex Kim,Apparel,Jeans,10,893.49,0,8934.9,3632.77,5302.13,4,No
+ORD-1262,ORD-1262-L1,2024-07-22,East,Online,Casey Ruiz,Electronics,Smartphone,21,396.39,0,8324.19,3747.62,4576.57,3,No
+ORD-1245,ORD-1245-L1,2024-07-23,South,In-Store,Sam Patel,Furniture,Chair,20,326.85,20,5229.6,2824.03,2405.57,1,No
+ORD-1090,ORD-1090-L1,2024-07-25,North,In-Store,Alex Kim,Apparel,Jeans,13,890.31,10,10416.63,6273.35,4143.28,1,No
+ORD-1342,ORD-1342-L1,2024-07-28,South,Phone,Jordan Lee,Home Goods,Candle,23,196.71,15,3845.68,2842.48,1003.2,3,No
+ORD-1342,ORD-1342-L2,2024-07-28,South,Phone,Jordan Lee,Apparel,Jeans,22,386.4,0,8500.8,3561.93,4938.87,3,No
+ORD-1296,ORD-1296-L1,2024-07-31,Central,Partner,Morgan Diaz,Apparel,Jeans,21,198.97,15,3551.61,1923.54,1628.07,3,No
+ORD-1096,ORD-1096-L1,2024-08-07,Central,Phone,Casey Ruiz,Home Goods,Cookware Set,4,130.79,0,523.16,280.21,242.95,4,No
+ORD-1096,ORD-1096-L2,2024-08-07,Central,Phone,Casey Ruiz,Apparel,Shoes,23,67.79,10,1403.25,759.49,643.76,3,No
+ORD-1096,ORD-1096-L3,2024-08-07,Central,Phone,Casey Ruiz,Furniture,Bookshelf,17,209.57,0,3562.69,2271.64,1291.05,2,No
+ORD-1096,ORD-1096-L4,2024-08-07,Central,Phone,Casey Ruiz,Electronics,Headphones,18,519.32,5,8880.37,5992.84,2887.53,5,No
+ORD-1088,ORD-1088-L1,2024-08-08,South,Partner,Alex Kim,Furniture,Bookshelf,4,52.49,5,199.46,124.23,75.23,5,No
+ORD-1088,ORD-1088-L2,2024-08-08,South,Partner,Alex Kim,Electronics,Tablet,20,487.08,15,8280.36,5402.82,2877.54,2,No
+ORD-1088,ORD-1088-L3,2024-08-08,South,Partner,Alex Kim,Apparel,Hat,1,557.17,0,557.17,318.26,238.91,2,No
+ORD-1319,ORD-1319-L1,2024-08-10,Central,Online,Casey Ruiz,Electronics,Monitor,5,344.59,20,1378.36,1154.32,224.04,5,No
+ORD-1319,ORD-1319-L2,2024-08-10,Central,Online,Casey Ruiz,Furniture,Desk,23,173.98,0,4001.54,2161.18,1840.36,1,No
+ORD-1319,ORD-1319-L3,2024-08-10,Central,Online,Casey Ruiz,Apparel,Hat,23,814.01,20,14977.78,11814.4,3163.38,3,No
+ORD-1319,ORD-1319-L4,2024-08-10,Central,Online,Casey Ruiz,Electronics,Headphones,25,65.51,5,1555.86,818.54,737.32,1,No
+ORD-1029,ORD-1029-L1,2024-08-12,South,Partner,Alex Kim,Electronics,Tablet,5,723.25,15,3073.81,2022.71,1051.1,5,No
+ORD-1029,ORD-1029-L2,2024-08-12,South,Partner,Alex Kim,Home Goods,Candle,24,803.89,5,18328.69,12524.68,5804.01,5,No
+ORD-1086,ORD-1086-L1,2024-08-15,West,Phone,Alex Kim,Home Goods,Candle,12,219.83,0,2637.96,1351.89,1286.07,1,No
+ORD-1200,ORD-1200-L1,2024-08-15,East,In-Store,Casey Ruiz,Home Goods,Vacuum,12,241.89,0,2902.68,1564.92,1337.76,1,No
+ORD-1200,ORD-1200-L2,2024-08-15,East,In-Store,Casey Ruiz,Electronics,Tablet,7,455.41,20,2550.3,1926.14,624.16,5,No
+ORD-1200,ORD-1200-L3,2024-08-15,East,In-Store,Casey Ruiz,Electronics,Smartphone,5,893.18,0,4465.9,2334.58,2131.32,5,No
+ORD-1350,ORD-1350-L1,2024-08-15,East,In-Store,Alex Kim,Home Goods,Blender,17,361.03,5,5830.63,3040.08,2790.55,5,No
+ORD-1181,ORD-1181-L1,2024-08-16,Central,In-Store,Morgan Diaz,Apparel,Jacket,6,658.65,15,3359.11,2705.51,653.6,4,No
+ORD-1121,ORD-1121-L1,2024-08-18,East,In-Store,Morgan Diaz,Home Goods,Towel Set,18,481.68,5,8236.73,4099.79,4136.94,2,No
+ORD-1121,ORD-1121-L2,2024-08-18,East,In-Store,Morgan Diaz,Electronics,Tablet,12,92.28,15,941.26,718.48,222.78,1,No
+ORD-1121,ORD-1121-L3,2024-08-18,East,In-Store,Morgan Diaz,Electronics,Laptop,7,726.13,10,4574.62,3137.64,1436.98,5,No
+ORD-1121,ORD-1121-L4,2024-08-18,East,In-Store,Morgan Diaz,Furniture,Bookshelf,10,861.74,0,8617.4,3994.53,4622.87,2,No
+ORD-1264,ORD-1264-L1,2024-08-26,East,Phone,Morgan Diaz,Electronics,Tablet,12,654.71,0,7856.52,5260.72,2595.8,4,No
+ORD-1264,ORD-1264-L2,2024-08-26,East,Phone,Morgan Diaz,Apparel,Jeans,23,446.17,10,9235.72,4679.31,4556.41,3,No
+ORD-1044,ORD-1044-L1,2024-08-27,East,In-Store,Morgan Diaz,Furniture,Chair,9,745.69,0,6711.21,2804.56,3906.65,3,No
+ORD-1339,ORD-1339-L1,2024-09-03,North,Online,Casey Ruiz,Furniture,Chair,12,273.24,15,2787.05,2294.18,492.87,1,No
+ORD-1339,ORD-1339-L2,2024-09-03,North,Online,Casey Ruiz,Apparel,Jacket,23,418.75,10,8668.12,6011.69,2656.43,1,No
+ORD-1127,ORD-1127-L1,2024-09-06,South,Phone,Casey Ruiz,Electronics,Laptop,3,370.69,5,1056.47,629.22,427.25,1,No
+ORD-1127,ORD-1127-L2,2024-09-06,South,Phone,Casey Ruiz,Furniture,Desk,16,762.33,15,10367.69,7749.09,2618.6,5,No
+ORD-1127,ORD-1127-L3,2024-09-06,South,Phone,Casey Ruiz,Electronics,Monitor,2,214.48,20,343.17,260.67,82.5,5,No
+ORD-1140,ORD-1140-L1,2024-09-06,Central,In-Store,Taylor Chen,Home Goods,Towel Set,8,719.99,15,4895.93,2622.7,2273.23,4,No
+ORD-1055,ORD-1055-L1,2024-09-07,Central,Partner,Taylor Chen,Furniture,Chair,6,80.27,20,385.3,247.92,137.38,2,No
+ORD-1055,ORD-1055-L2,2024-09-07,Central,Partner,Taylor Chen,Furniture,Chair,15,577.73,5,8232.65,4130.17,4102.48,1,No
+ORD-1166,ORD-1166-L1,2024-09-08,South,IN-STORE,Morgan Diaz,Apparel,T-Shirt,11,11.29,15,105.56,63.69,41.87,3,No
+ORD-1012,ORD-1012-L1,2024-09-10,South,Online,Sam Patel,Furniture,Lamp,8,16.39,15,111.45,77.27,34.18,2,Yes
+ORD-1035,ORD-1035-L1,2024-09-10,South,Online,Taylor Chen,Furniture,Sofa,22,111.8,0,2459.6,1326.98,1132.62,3,No
+ORD-1118,ORD-1118-L1,2024-09-10,West,Phone,Jordan Lee,Electronics,Laptop,22,383.11,20,6742.74,5738.67,1004.07,1,No
+ORD-1227,ORD-1227-L1,2024-09-14,Central,Online,Taylor Chen,Apparel,Hat,13,411.49,5,5081.9,2834.67,2247.23,1,No
+ORD-1227,ORD-1227-L2,2024-09-14,Central,Online,Taylor Chen,Electronics,Monitor,1,580.86,10,522.77,243.36,279.41,5,Yes
+ORD-1227,ORD-1227-L3,2024-09-14,Central,Online,Taylor Chen,Electronics,Headphones,17,104.45,20,1420.52,1075.62,344.9,5,No
+ORD-1244,ORD-1244-L1,2024-09-21,North,Partner,Casey Ruiz,Furniture,Chair,11,377.05,0,4147.55,2301.69,1845.86,1,No
+ORD-1244,ORD-1244-L2,2024-09-21,North,Partner,Casey Ruiz,Apparel,Jacket,10,92.77,15,788.54,579.48,209.06,3,Yes
+ORD-1244,ORD-1244-L3,2024-09-21,North,Partner,Casey Ruiz,Furniture,Sofa,11,324.64,10,3213.94,1716.68,1497.26,2,No
+ORD-1172,ORD-1172-L1,2024-09-22,North,Online,Alex Kim,Home Goods,Cookware Set,3,815.51,20,1957.22,1572.3,384.92,1,Yes
+ORD-1162,ORD-1162-L1,2024-09-26,Central,Online,Morgan Diaz,Apparel,T-Shirt,16,774.82,0,12397.12,6326.33,6070.79,3,No
+ORD-1162,ORD-1162-L2,2024-09-26,Central,Online,Morgan Diaz,Electronics,Smartphone,24,462.84,0,11108.16,7304.8,3803.36,1,No
+ORD-1320,ORD-1320-L1,2024-09-28,South,Partner,Alex Kim,Furniture,Lamp,13,168.8,5,2084.68,949.14,1135.54,5,No
+ORD-1320,ORD-1320-L2,2024-09-28,South,Partner,Alex Kim,Furniture,Lamp,,104.55,5,2085.77,1349.43,736.34,1,Yes
+ORD-1189,ORD-1189-L1,2024-10-02,Central,Online,Jordan Lee,Electronics,Laptop,22,315.96,10,6256.01,3643.75,2612.26,5,No
+ORD-1189,ORD-1189-L2,2024-10-02,Central,Online,Jordan Lee,Electronics,Tablet,17,382.57,10,5853.32,3942.02,1911.3,4,No
+ORD-1189,ORD-1189-L3,2024-10-02,Central,Online,Jordan Lee,Furniture,Sofa,10,80.26,20,642.08,493.03,149.05,5,No
+ORD-1311,ORD-1311-L1,2024-10-02,West,Phone,Alex Kim,Home Goods,Vacuum,4,526.43,15,1789.86,892.87,896.99,5,No
+ORD-1311,ORD-1311-L2,2024-10-02,West,Phone,Alex Kim,Apparel,Hat,17,79.62,10,1218.19,577.33,640.86,4,No
+ORD-1311,ORD-1311-L3,2024-10-02,West,Phone,Alex Kim,Electronics,Monitor,19,288.11,0,5474.09,3673.53,1800.56,5,No
+ORD-1311,ORD-1311-L4,2024-10-02,West,Phone,Alex Kim,Home Goods,Towel Set,17,816.38,10,12490.61,8606.65,3883.96,4,No
+ORD-1049,ORD-1049-L1,2024-10-06,West,Partner,Morgan Diaz,Furniture,Sofa,7,830.45,10,5231.84,3626.75,1605.09,2,No
+ORD-1059,ORD-1059-L1,2024-10-06,South,Phone,Morgan Diaz,Apparel,Shoes,4,426.8,0,1707.2,754.97,952.23,2,No
+ORD-1059,ORD-1059-L2,2024-10-06,South,Phone,Morgan Diaz,Home Goods,Candle,12,90.36,5,1030.1,438.26,591.84,5,No
+ORD-1059,ORD-1059-L3,2024-10-06,South,Phone,Morgan Diaz,Apparel,Shoes,19,349.1,15,5637.97,4524.22,1113.75,1,No
+ORD-1059,ORD-1059-L4,2024-10-06,South,Phone,Morgan Diaz,Home Goods,Blender,20,796.96,10,14345.28,7944.13,6401.15,5,No
+ORD-1202,ORD-1202-L1,2024-10-07,South,In-Store,Taylor Chen,Home Goods,Blender,5,556.88,15,2366.74,1472.45,894.29,4,No
+ORD-1202,ORD-1202-L2,2024-10-07,South,In-Store,Taylor Chen,Home Goods,Blender,2,485.06,15,824.6,496.63,327.97,1,No
+ORD-1202,ORD-1202-L3,2024-10-07,South,In-Store,Taylor Chen,Furniture,Desk,22,13.66,15,255.44,142.64,112.8,3,No
+ORD-1174,ORD-1174-L1,2024-10-08,East,Partner,Jordan Lee,Furniture,Bookshelf,16,376.66,10,5423.9,3276.7,2147.2,1,No
+ORD-1050,ORD-1050-L1,2024-10-09,West,Phone,Taylor Chen,Electronics,Headphones,24,275.7,10,5955.12,3797.89,2157.23,4,No
+ORD-1344,ORD-1344-L1,2024-10-09,North,In-Store,Morgan Diaz,Furniture,Lamp,21,30.18,5,602.09,437.86,164.23,5,No
+ORD-1003,ORD-1003-L1,2024-10-11,North,In-Store,Casey Ruiz,Apparel,Jacket,7,861.91,0,6033.37,2598.35,3435.02,4,No
+ORD-1313,ORD-1313-L1,2024-10-11,East,In-Store,Taylor Chen,Apparel,T-Shirt,24,109.27,0,2622.48,1765.03,857.45,2,No
+ORD-1308,ORD-1308-L1,2024-10-15,North,In-Store,Morgan Diaz,Home Goods,Vacuum,23,350.67,5,7662.14,4279.16,3382.98,2,No
+ORD-1308,ORD-1308-L2,2024-10-15,North,In-Store,Morgan Diaz,Home Goods,Cookware Set,7,504.32,20,2824.19,2391.19,433.0,4,No
+ORD-1165,ORD-1165-L1,2024-10-16,East,Phone,Alex Kim,Electronics,Headphones,7,269.51,20,1509.26,926.63,582.63,5,No
+ORD-1165,ORD-1165-L2,2024-10-16,East,Phone,Alex Kim,Apparel,Jeans,16,898.02,20,11494.66,6589.7,4904.96,5,No
+ORD-1333,ORD-1333-L1,2024-10-18,South,Partner,Sam Patel,Home Goods,Blender,4,668.96,10,2408.26,1211.53,1196.73,1,No
+ORD-1324,ORD-1324-L1,2024-10-23,South,In-Store,Taylor Chen,Home Goods,Cookware Set,10,629.33,0,6293.3,3707.92,2585.38,3,No
+ORD-1312,ORD-1312-L1,2024-10-28,East,In-Store,Alex Kim,Apparel,Jeans,9,64.65,5,552.76,333.66,219.1,5,Yes
+ORD-1312,ORD-1312-L2,2024-10-28,East,In-Store,Alex Kim,Apparel,Jeans,1,265.26,0,265.26,116.2,149.06,1,No
+ORD-1082,ORD-1082-L1,2024-10-29,North,Online,Casey Ruiz,Furniture,Lamp,13,147.27,0,1914.51,1243.29,671.22,5,No
+ORD-1108,ORD-1108-L1,2024-10-31,East,In-Store,Casey Ruiz,Apparel,Hat,12,508.82,20,4884.67,3764.25,1120.42,3,No
+ORD-1108,ORD-1108-L2,2024-10-31,East,In-Store,Casey Ruiz,Home Goods,Towel Set,12,859.59,20,8252.06,4579.31,3672.75,1,No
+ORD-1292,ORD-1292-L1,2024-11-01,East,Online,Alex Kim,Furniture,Chair,22,263.09,15,4919.78,3515.93,1403.85,5,No
+ORD-1196,ORD-1196-L1,2024-11-05,Central,Partner,Taylor Chen,Apparel,Jeans,21,538.45,0,11307.45,5535.48,5771.97,1,No
+ORD-1192,ORD-1192-L1,2024-11-06,East,Phone,Morgan Diaz,Electronics,Smartphone,5,277.42,15,1179.04,739.23,439.81,3,No
+ORD-1192,ORD-1192-L2,2024-11-06,East,Phone,Morgan Diaz,Home Goods,Candle,21,89.46,5,1784.73,870.6,914.13,4,No
+ORD-1192,ORD-1192-L3,2024-11-06,East,Phone,Morgan Diaz,Apparel,T-Shirt,17,714.42,0,12145.14,5991.65,6153.49,5,No
+ORD-1084,ORD-1084-L1,2024-11-12,West,In-Store,Sam Patel,Home Goods,Towel Set,25,260.77,5,6193.29,3591.27,2602.02,4,No
+ORD-1084,ORD-1084-L2,2024-11-12,West,In-Store,Sam Patel,Furniture,Lamp,5,786.96,0,3934.8,2330.79,1604.01,3,No
+ORD-1211,ORD-1211-L1,2024-11-17,North,In-Store,Casey Ruiz,Electronics,Tablet,22,656.71,5,13725.24,7277.63,6447.61,4,No
+ORD-1211,ORD-1211-L2,2024-11-17,North,In-Store,Casey Ruiz,Electronics,Laptop,21,841.58,10,15905.86,11569.81,4336.05,4,No
+ORD-1211,ORD-1211-L3,2024-11-17,North,In-Store,Casey Ruiz,Electronics,Tablet,11,224.38,0,2468.18,1024.55,1443.63,2,No
+ORD-1131,ORD-1131-L1,2024-11-20,East,Online,Alex Kim,Apparel,Hat,12,687.59,0,8251.08,3628.43,4622.65,2,No
+ORD-1158,ORD-1158-L1,2024-11-20,South,Partner,Taylor Chen,Furniture,Sofa,25,74.95,10,1686.38,787.46,898.92,3,No
+ORD-1295,ORD-1295-L1,2024-11-20,East,Phone,Jordan Lee,Home Goods,Candle,24,572.34,5,13049.35,8824.03,4225.32,5,No
+ORD-1295,ORD-1295-L2,2024-11-20,East,Phone,Jordan Lee,Apparel,Jacket,1,115.19,5,109.43,67.69,41.74,1,No
+ORD-1307,ORD-1307-L1,2024-11-20,East,Phone,Morgan Diaz,Apparel,T-Shirt,19,17.22,10,294.46,170.55,123.91,2,No
+ORD-1307,ORD-1307-L2,2024-11-20,East,Phone,Morgan Diaz,Electronics,Headphones,18,871.42,0,15685.56,9583.97,6101.59,3,No
+ORD-1100,ORD-1100-L1,2024-11-22,East,Partner,Jordan Lee,Electronics,Headphones,8,425.15,0,3401.2,1819.23,1581.97,2,No
+ORD-1100,ORD-1100-L2,2024-11-22,East,Partner,Jordan Lee,Apparel,Hat,20,382.13,20,6114.08,5125.84,988.24,3,No
+ORD-1100,ORD-1100-L3,2024-11-22,East,Partner,Jordan Lee,Apparel,Jacket,25,151.8,10,3415.5,2049.47,1366.03,3,No
+ORD-1273,ORD-1273-L1,2024-11-22,Central,In-Store,Sam Patel,Furniture,Chair,2,609.53,5,1158.11,842.75,315.36,5,No
+ORD-1273,ORD-1273-L2,2024-11-22,Central,In-Store,Sam Patel,Electronics,Smartphone,14,267.9,5,3563.07,1666.78,1896.29,3,No
+ORD-1123,ORD-1123-L1,2024-11-23,South,Phone,Sam Patel,Furniture,Chair,1,242.08,10,217.87,138.89,78.98,4,No
+ORD-1164,ORD-1164-L1,2024-11-23,East,Online,Taylor Chen,Electronics,Smartphone,8,725.85,0,5806.8,3984.76,1822.04,1,No
+ORD-1183,ORD-1183-L1,2024-11-23,South,Online,Casey Ruiz,Apparel,Hat,1,246.03,0,246.03,149.57,96.46,3,No
+ORD-1183,ORD-1183-L2,2024-11-23,South,Online,Casey Ruiz,Electronics,Laptop,2,353.47,15,600.9,371.78,229.12,2,No
+ORD-1198,ORD-1198-L1,2024-11-23,South,Online,Casey Ruiz,Apparel,Shoes,14,370.08,15,4403.95,2127.35,2276.6,5,No
+ORD-1198,ORD-1198-L2,2024-11-23,South,Online,Casey Ruiz,Apparel,Jacket,22,485.82,20,8550.43,5800.62,2749.81,3,No
+ORD-1130,ORD-1130-L1,2024-11-30,North,Phone,Morgan Diaz,Apparel,Jeans,13,394.33,15,4357.35,2951.53,1405.82,4,No
+ORD-1130,ORD-1130-L2,2024-11-30,North,Phone,Morgan Diaz,Apparel,Jacket,23,75.41,0,1734.43,774.02,960.41,2,No
+ORD-1134,ORD-1134-L1,2024-12-03,West,Phone,Morgan Diaz,Furniture,Bookshelf,11,546.85,15,5113.05,2768.6,2344.45,3,No
+ORD-1134,ORD-1134-L2,2024-12-03,West,Phone,Morgan Diaz,Home Goods,Vacuum,10,664.03,15,5644.25,3634.25,2010.0,5,No
+ORD-1134,ORD-1134-L3,2024-12-03,West,Phone,Morgan Diaz,Apparel,Hat,9,736.67,5,6298.53,3378.03,2920.5,5,No
+ORD-1322,ORD-1322-L1,2024-12-03,West,Online,Taylor Chen,Home Goods,Towel Set,14,369.47,15,4396.69,3280.87,1115.82,1,No
+ORD-1322,ORD-1322-L2,2024-12-03,West,Online,Taylor Chen,Electronics,Tablet,23,737.99,5,16125.08,7406.69,8718.39,5,No
+ORD-1179,ORD-1179-L1,2024-12-05,Central,In-Store,Jordan Lee,Furniture,Bookshelf,2,29.49,10,53.08,36.06,17.02,2,No
+ORD-1197,ORD-1197-L1,2024-12-10,East,Phone,Sam Patel,Apparel,Jacket,5,470.38,0,2351.9,1575.55,776.35,5,No
+ORD-1079,ORD-1079-L1,2024-12-12,Central,Online,Casey Ruiz,Electronics,Headphones,4,506.58,5,1925.0,983.26,941.74,5,No
+ORD-1079,ORD-1079-L2,2024-12-12,Central,Online,Casey Ruiz,Apparel,T-Shirt,19,600.6,0,11411.4,5626.61,5784.79,4,No
+ORD-1004,ORD-1004-L1,2024-12-18,Central,Phone,Alex Kim,Electronics,Tablet,3,501.31,20,1203.14,885.2,317.94,3,No
+ORD-1004,ORD-1004-L2,2024-12-18,Central,Phone,Alex Kim,Electronics,Laptop,22,212.82,0,4682.04,3256.67,1425.37,2,No
+ORD-1161,ORD-1161-L1,2024-12-21,Central,Phone,Jordan Lee,Apparel,T-Shirt,25,810.9,0,20272.5,13017.63,7254.87,3,No
+ORD-1276,ORD-1276-L1,2024-12-22,South,Phone,Sam Patel,Electronics,Headphones,6,889.0,10,4800.6,3448.3,1352.3,4,No
+ORD-1276,ORD-1276-L2,2024-12-22,South,Phone,Sam Patel,Home Goods,Blender,8,187.71,0,1501.68,670.95,830.73,1,No
+ORD-1075,ORD-1075-L1,2024-12-23,East,In-Store,Jordan Lee,Apparel,Jacket,6,546.13,20,2621.42,2056.98,564.44,1,No
+ORD-1156,ORD-1156-L1,2024-12-25,West,Phone,Jordan Lee,Electronics,Smartphone,18,544.88,15,8336.66,5710.89,2625.77,1,No
+ORD-1214,ORD-1214-L1,2024-12-29,East,Phone,Casey Ruiz,Furniture,Sofa,5,741.43,15,3151.08,2285.34,865.74,1,No
+ORD-1170,ORD-1170-L1,2024-12-30,,Online,Casey Ruiz,Furniture,Desk,13,770.59,10,9015.9,6255.27,2760.63,2,No
+ORD-1323,ORD-1323-L1,2025-01-02,East,Phone,Morgan Diaz,Electronics,Headphones,18,769.46,0,13850.28,5874.42,7975.86,4,No
+ORD-1247,ORD-1247-L1,2025-01-05,Central,Phone,Jordan Lee,Furniture,Bookshelf,16,863.08,0,13809.28,7039.66,6769.62,4,No
+ORD-1247,ORD-1247-L2,2025-01-05,Central,Phone,Jordan Lee,Home Goods,Vacuum,12,770.34,0,9244.08,4947.6,4296.48,5,No
+ORD-1021,ORD-1021-L1,2025-01-13,Central,In-Store,Morgan Diaz,Apparel,Shoes,2,810.03,0,1620.06,979.52,640.54,1,No
+ORD-1314,ORD-1314-L1,2025-01-13,South,Phone,Casey Ruiz,Furniture,Lamp,2,315.12,0,630.24,434.99,195.25,5,No
+ORD-1138,ORD-1138-L1,2025-01-18,West,Partner,Casey Ruiz,Furniture,Bookshelf,1,439.66,0,439.66,230.73,208.93,1,No
+ORD-1138,ORD-1138-L2,2025-01-18,West,Partner,Casey Ruiz,Furniture,Bookshelf,10,315.32,20,2522.56,1456.97,1065.59,4,No
+ORD-1212,ORD-1212-L1,2025-01-22,West,In-Store,Alex Kim,Home Goods,Blender,16,407.88,0,6526.08,4530.41,1995.67,1,No
+ORD-1212,ORD-1212-L2,2025-01-22,West,In-Store,Alex Kim,Home Goods,Blender,18,498.69,20,7181.14,3835.34,3345.8,5,No
+ORD-1038,ORD-1038-L1,2025-01-23,East,Online,Morgan Diaz,Furniture,Sofa,7,325.78,0,2280.46,1145.02,1135.44,5,No
+ORD-1038,ORD-1038-L2,2025-01-23,East,Online,Morgan Diaz,Apparel,Jeans,1,469.79,0,469.79,199.98,269.81,4,No
+ORD-1038,ORD-1038-L3,2025-01-23,East,Online,Morgan Diaz,Furniture,Sofa,21,643.53,5,12838.42,8620.39,4218.03,1,No
+ORD-1306,ORD-1306-L1,2025-01-23,East,Partner,Casey Ruiz,Electronics,Smartphone,5,799.65,20,3198.6,2362.33,836.27,1,No
+ORD-1306,ORD-1306-L2,2025-01-23,East,Partner,Casey Ruiz,Furniture,Sofa,18,269.43,10,4364.77,2780.74,1584.03,2,No
+ORD-1005,ORD-1005-L1,2025-01-24,East,Partner,Casey Ruiz,Furniture,Bookshelf,12,196.45,0,2357.4,1439.3,918.1,1,No
+ORD-1005,ORD-1005-L2,2025-01-24,East,Partner,Casey Ruiz,Furniture,Lamp,24,227.87,5,5195.44,2810.11,2385.33,5,No
+ORD-1005,ORD-1005-L3,2025-01-24,East,Partner,Casey Ruiz,Apparel,T-Shirt,8,741.39,20,4744.9,2933.74,1811.16,3,Yes
+ORD-1114,ORD-1114-L1,2025-01-27,South,Partner,Sam Patel,Apparel,Jeans,24,519.85,0,12476.4,7437.24,5039.16,2,Yes
+ORD-1114,ORD-1114-L2,2025-01-27,South,Partner,Sam Patel,Electronics,Tablet,10,152.14,15,1293.19,837.92,455.27,3,No
+ORD-1114,ORD-1114-L3,2025-01-27,South,Partner,Sam Patel,Apparel,Shoes,20,206.55,0,4131.0,2245.01,1885.99,4,No
+ORD-1114,ORD-1114-L4,2025-01-27,South,Partner,Sam Patel,Apparel,Hat,23,498.81,5,10899.0,7195.69,3703.31,2,No
+ORD-1145,ORD-1145-L1,2025-01-27,West,In-Store,Morgan Diaz,Furniture,Lamp,6,445.77,0,2674.62,1219.97,1454.65,4,No
+ORD-1145,ORD-1145-L2,2025-01-27,West,In-Store,Morgan Diaz,Apparel,T-Shirt,16,131.51,20,1683.33,1084.03,599.3,5,No
+ORD-1305,ORD-1305-L1,2025-01-28,North,Phone,Jordan Lee,Home Goods,Towel Set,19,710.71,10,12153.14,8213.36,3939.78,2,No
+ORD-1305,ORD-1305-L2,2025-01-28,North,Phone,Jordan Lee,Electronics,Monitor,16,111.74,10,1609.06,963.42,645.64,5,No
+ORD-1305,ORD-1305-L3,2025-01-28,North,Phone,Jordan Lee,Home Goods,Cookware Set,10,860.73,0,8607.3,4987.74,3619.56,5,No
+ORD-1210,ORD-1210-L1,2025-01-29,West,Partner,Casey Ruiz,Furniture,Desk,5,629.58,0,3147.9,2186.12,961.78,2,No
+ORD-1210,ORD-1210-L2,2025-01-29,West,Partner,Casey Ruiz,Home Goods,Candle,22,399.95,10,7919.01,4521.98,3397.03,3,No
+ORD-1210,ORD-1210-L3,2025-01-29,West,Partner,Casey Ruiz,Furniture,Sofa,16,110.5,5,1679.6,940.94,738.66,1,No
+ORD-1177,ORD-1177-L1,2025-02-01,East,In-Store,Jordan Lee,Apparel,Shoes,19,35.09,15,566.7,337.03,229.67,5,No
+ORD-1031,ORD-1031-L1,2025-02-02,Central,Online,Taylor Chen,Electronics,Headphones,10,680.58,20,5444.64,4542.82,901.82,4,No
+ORD-1160,ORD-1160-L1,2025-02-04,Central,Online,Sam Patel,Furniture,Desk,8,86.72,5,659.07,301.64,357.43,5,No
+ORD-1160,ORD-1160-L2,2025-02-04,Central,Online,Sam Patel,Apparel,Jacket,4,21.26,0,85.04,51.91,33.13,2,No
+ORD-1260,ORD-1260-L1,2025-02-05,North,Partner,Jordan Lee,Apparel,Hat,1,118.54,20,94.83,72.83,22.0,4,No
+ORD-1281,ORD-1281-L1,2025-02-06,South,Online,Sam Patel,Apparel,Shoes,8,896.43,10,6454.3,3462.11,2992.19,1,No
+ORD-1281,ORD-1281-L2,2025-02-06,South,Online,Sam Patel,Home Goods,Blender,18,854.7,0,15384.6,6854.03,8530.57,4,No
+ORD-1263,ORD-1263-L1,2025-02-09,South,Online,Alex Kim,Home Goods,Candle,5,340.53,0,1702.65,808.11,894.54,4,No
+ORD-1263,ORD-1263-L2,2025-02-09,South,Online,Alex Kim,Apparel,T-Shirt,2,326.4,0,652.8,398.47,254.33,1,No
+ORD-1287,ORD-1287-L1,2025-02-09,North,Partner,Taylor Chen,Electronics,Smartphone,10,401.19,0,4011.9,2535.93,1475.97,3,No
+ORD-1287,ORD-1287-L2,2025-02-09,North,Partner,Taylor Chen,Home Goods,Vacuum,20,827.93,15,14074.81,9191.53,4883.28,2,No
+ORD-1287,ORD-1287-L3,2025-02-09,North,Partner,Taylor Chen,HOME GOODS ,Blender,24,455.58,0,10933.92,6927.94,4005.98,5,No
+ORD-1242,ORD-1242-L1,2025-02-14,Central,Phone,Casey Ruiz,Electronics,Smartphone,21,449.98,0,9449.58,4351.65,5097.93,5,No
+ORD-1242,ORD-1242-L2,2025-02-14,Central,Phone,Casey Ruiz,Electronics,Monitor,17,469.06,0,7974.02,4661.27,3312.75,1,No
+ORD-1242,ORD-1242-L3,2025-02-14,Central,Phone,Casey Ruiz,Electronics,Smartphone,3,897.16,20,2153.18,1399.11,754.07,4,No
+ORD-1242,ORD-1242-L4,2025-02-14,Central,Phone,Casey Ruiz,Furniture,Lamp,1,665.85,0,665.85,449.95,215.9,5,No
+ORD-1039,ORD-1039-L1,2025-02-18,South,Phone,Casey Ruiz,Home Goods,Candle,17,315.93,15,4565.19,3035.13,1530.06,3,No
+ORD-1039,ORD-1039-L2,2025-02-18,South,Phone,Casey Ruiz,Apparel,Shoes,9,215.17,15,1646.05,886.5,759.55,1,No
+ORD-1349,ORD-1349-L1,2025-02-18,West,In-Store,Morgan Diaz,Furniture,Desk,24,496.06,10,10714.9,5945.39,4769.51,3,No
+ORD-1349,ORD-1349-L2,2025-02-18,West,In-Store,Morgan Diaz,Apparel,Jeans,22,140.89,10,2789.62,1917.29,872.33,4,No
+ORD-1349,ORD-1349-L3,2025-02-18,West,In-Store,Morgan Diaz,Electronics,Tablet,2,134.08,10,241.34,116.67,124.67,1,No
+ORD-1349,ORD-1349-L4,2025-02-18,West,In-Store,Morgan Diaz,Furniture,Sofa,12,92.3,0,1107.6,645.12,462.48,2,No
+ORD-1014,ORD-1014-L1,2025-02-20,South,Online,Alex Kim,Apparel,Hat,14,425.64,15,5065.12,2480.43,2584.69,1,Yes
+ORD-1014,ORD-1014-L2,2025-02-20,South,Online,Alex Kim,Apparel,T-Shirt,8,180.51,10,1299.67,771.98,527.69,4,No
+ORD-1052,ORD-1052-L1,2025-02-24,North,Phone,Casey Ruiz,Home Goods,Towel Set,22,715.22,15,13374.61,10923.84,2450.77,4,No
+ORD-1052,ORD-1052-L2,2025-02-24,North,Phone,Casey Ruiz,Furniture,Lamp,19,305.47,0,5803.93,3843.69,1960.24,4,No
+ORD-1236,ORD-1236-L1,2025-02-24,North,In-Store,Alex Kim,Furniture,Chair,21,466.24,10,8811.94,4347.8,4464.14,2,No
+ORD-1149,ORD-1149-L1,2025-02-25,North,Phone,Casey Ruiz,Furniture,Chair,5,643.13,20,2572.52,1525.07,1047.45,4,No
+ORD-1133,ORD-1133-L1,2025-02-27,West,Online,Casey Ruiz,Furniture,Lamp,17,160.92,5,2598.86,1233.36,1365.5,3,No
+ORD-1133,ORD-1133-L2,2025-02-27,West,Online,Casey Ruiz,Home Goods,Cookware Set,3,158.8,0,476.4,250.74,225.66,4,No
+ORD-1133,ORD-1133-L3,2025-02-27,West,Online,Casey Ruiz,Apparel,Shoes,8,651.59,5,4952.08,3013.69,1938.39,2,No
+ORD-1133,ORD-1133-L4,2025-02-27,West,Online,Casey Ruiz,Furniture,Bookshelf,1,854.44,0,854.44,557.51,296.93,4,No
+ORD-1253,ORD-1253-L1,2025-02-27,South,In-Store,Alex Kim,Furniture,Bookshelf,24,633.61,0,15206.64,7043.28,8163.36,4,No
+ORD-1288,ORD-1288-L1,2025-02-27,East,Partner,Alex Kim,Furniture,Sofa,3,232.56,15,593.03,414.82,178.21,2,No
+ORD-1042,ORD-1042-L1,2025-03-02,Central,In-Store,Taylor Chen,Home Goods,Vacuum,19,891.12,0,16931.28,9660.8,7270.48,1,No
+ORD-1034,ORD-1034-L1,2025-03-07,East,Online,Morgan Diaz,Electronics,Headphones,8,588.62,20,3767.17,3235.93,531.24,1,No
+ORD-1117,ORD-1117-L1,2025-03-09,East,Online,Taylor Chen,Electronics,Tablet,2,265.5,0,531.0,334.9,196.1,4,No
+ORD-1117,ORD-1117-L2,2025-03-09,East,Online,Taylor Chen,Home Goods,Towel Set,13,344.31,15,3804.63,3085.07,719.56,5,No
+ORD-1117,ORD-1117-L3,2025-03-09,East,Online,Taylor Chen,Apparel,T-Shirt,6,893.62,5,5093.63,2995.34,2098.29,2,No
+ORD-1117,ORD-1117-L4,2025-03-09,East,Online,Taylor Chen,Electronics,Headphones,15,609.4,10,8226.9,4819.49,3407.41,4,No
+ORD-1240,ORD-1240-L1,2025-03-12,Central,Phone,Sam Patel,Home Goods,Candle,12,554.56,15,5656.51,3455.37,2201.14,2,No
+ORD-1240,ORD-1240-L2,2025-03-12,Central,Phone,Sam Patel,Home Goods,Cookware Set,12,507.58,5,5786.41,2900.11,2886.3,3,No
+ORD-1240,ORD-1240-L3,2025-03-12,Central,Phone,Sam Patel,Home Goods,Cookware Set,22,115.98,0,2551.56,1362.48,1189.08,2,No
+ORD-1054,ORD-1054-L1,2025-03-20,North,Online,Morgan Diaz,Apparel,T-Shirt,2,298.68,0,597.36,291.52,305.84,3,No
+ORD-1093,ORD-1093-L1,2025-03-21,East,Online,Alex Kim,Home Goods,Vacuum,17,722.97,15,10446.92,5506.09,4940.83,1,No
+ORD-1093,ORD-1093-L2,2025-03-21,East,Online,Alex Kim,Home Goods,Blender,5,69.83,20,279.32,207.24,72.08,3,No
+ORD-1228,ORD-1228-L1,2025-03-24,West,Partner,Casey Ruiz,Furniture,Lamp,8,131.37,5,998.41,671.6,326.81,5,No
+ORD-1106,ORD-1106-L1,2025-03-27,East,Partner,Jordan Lee,Furniture,Sofa,17,699.72,5,11300.48,7872.81,3427.67,1,No
+ORD-1261,ORD-1261-L1,2025-03-29,South,Online,Jordan Lee,Electronics,Monitor,22,884.07,5,18477.06,10050.29,8426.77,3,No
+ORD-1261,ORD-1261-L2,2025-03-29,South,Online,Jordan Lee,Furniture,Desk,24,844.29,10,18236.66,8847.67,9388.99,4,No
+ORD-1051,ORD-1051-L1,2025-04-02,Central,Partner,Sam Patel,Home Goods,Towel Set,11,783.94,15,7329.84,4067.13,3262.71,4,No
+ORD-1326,ORD-1326-L1,2025-04-05,North,Online,Sam Patel,Electronics,Tablet,4,198.38,15,674.49,476.27,198.22,4,No
+ORD-1216,ORD-1216-L1,2025-04-06,West,In-Store,Morgan Diaz,Electronics,Monitor,14,756.54,5,10061.98,7173.78,2888.2,2,No
+ORD-1067,ORD-1067-L1,2025-04-09,West,Partner,Casey Ruiz,Home Goods,Vacuum,22,236.84,0,5210.48,3157.79,2052.69,4,Yes
+ORD-1053,ORD-1053-L1,2025-04-12,North,In-Store,Morgan Diaz,Furniture,Desk,16,705.55,0,11288.8,5662.11,5626.69,4,No
+ORD-1053,ORD-1053-L2,2025-04-12,North,In-Store,Morgan Diaz,Apparel,Jeans,13,859.17,15,9493.83,6875.94,2617.89,4,No
+ORD-1053,ORD-1053-L3,2025-04-12,North,In-Store,Morgan Diaz,Electronics,Monitor,3,218.94,15,558.3,444.19,114.11,2,No
+ORD-1201,ORD-1201-L1,2025-04-13,South,Phone,Casey Ruiz,Electronics,Tablet,11,571.61,0,6287.71,3106.28,3181.43,1,Yes
+ORD-1151,ORD-1151-L1,2025-04-14,East,Online,Taylor Chen,Home Goods,Cookware Set,16,248.99,20,3187.07,1932.47,1254.6,5,No
+ORD-1037,ORD-1037-L1,2025-04-15,South,Partner,Jordan Lee,Apparel,Jeans,18,699.42,5,11960.08,6680.93,5279.15,5,No
+ORD-1037,ORD-1037-L2,2025-04-15,South,Partner,Jordan Lee,Furniture,Desk,9,794.64,0,7151.76,4470.87,2680.89,5,No
+ORD-1173,ORD-1173-L1,2025-04-17,North,In-Store,Taylor Chen,Home Goods,Towel Set,1,350.62,5,333.09,158.42,174.67,2,No
+ORD-1015,ORD-1015-L1,2025-04-18,South,Online,Morgan Diaz,Electronics,Laptop,21,899.35,20,15109.08,7638.16,7470.92,1,No
+ORD-1015,ORD-1015-L2,2025-04-18,South,Online,Morgan Diaz,Furniture,Chair,14,442.21,0,6190.94,4082.28,2108.66,1,No
+ORD-1015,ORD-1015-L3,2025-04-18,South,Online,Morgan Diaz,Electronics,Tablet,9,834.59,20,6009.05,4029.84,1979.21,4,No
+ORD-1169,ORD-1169-L1,2025-04-19,East,Online,Alex Kim,Apparel,Jeans,2,201.36,20,322.18,200.69,121.49,1,No
+ORD-1340,ORD-1340-L1,2025-04-19,South,Partner,Jordan Lee,Apparel,Hat,23,573.72,20,10556.45,7761.52,2794.93,,No
+ORD-1340,ORD-1340-L2,2025-04-19,South,Partner,Jordan Lee,Apparel,Jeans,2,273.96,20,438.34,263.51,174.83,5,No
+ORD-1340,ORD-1340-L3,2025-04-19,South,Partner,Jordan Lee,Furniture,Desk,20,793.94,15,13496.98,10792.39,2704.59,5,No
+ORD-1194,ORD-1194-L1,2025-04-20,Central,Partner,Casey Ruiz,Electronics,Smartphone,12,445.01,5,5073.11,2420.54,2652.57,4,No
+ORD-1194,ORD-1194-L2,2025-04-20,Central,Partner,Casey Ruiz,Apparel,Shoes,6,755.5,0,4533.0,2831.71,1701.29,1,No
+ORD-1194,ORD-1194-L3,2025-04-20,Central,Partner,Casey Ruiz,Home Goods,Blender,6,769.89,20,3695.47,3184.92,510.55,2,No
+ORD-1194,ORD-1194-L4,2025-04-20,Central,Partner,Casey Ruiz,Furniture,Bookshelf,21,374.45,0,7863.45,5185.07,2678.38,1,No
+ORD-1332,ORD-1332-L1,2025-04-20,South,Phone,Alex Kim,Furniture,Sofa,16,166.92,15,2270.11,1807.55,462.56,1,No
+ORD-1056,ORD-1056-L1,2025-04-21,East,In-Store,Alex Kim,Apparel,Jeans,10,578.65,5,5497.18,3512.95,1984.23,4,No
+ORD-1303,ORD-1303-L1,2025-04-21,Central,In-Store,Alex Kim,Home Goods,Blender,15,286.24,15,3649.56,2632.25,1017.31,4,No
+ORD-1303,ORD-1303-L2,2025-04-21,Central,In-Store,Alex Kim,Furniture,Chair,20,239.66,0,4793.2,2481.07,2312.13,3,No
+ORD-1303,ORD-1303-L3,2025-04-21,Central,In-Store,Alex Kim,Apparel,Hat,16,36.93,5,561.34,256.36,304.98,4,No
+ORD-1033,ORD-1033-L1,2025-04-23,South,Online,Morgan Diaz,Electronics,Laptop,21,391.46,20,6576.53,4426.9,2149.63,1,No
+ORD-1033,ORD-1033-L2,2025-04-23,South,Online,Morgan Diaz,Apparel,Jacket,15,300.88,20,3610.56,2996.28,614.28,3,No
+ORD-1265,ORD-1265-L1,2025-04-24,East,In-Store,Alex Kim,Home Goods,Vacuum,9,492.02,5,,1772.23,2434.54,5,No
+ORD-1265,ORD-1265-L2,2025-04-24,East,In-Store,Alex Kim,Furniture,Desk,20,772.57,20,12361.12,9055.44,3305.68,3,No
+ORD-1163,ORD-1163-L1,2025-04-28,East,Partner,Jordan Lee,Electronics,Monitor,23,669.18,5,14621.58,7193.12,7428.46,2,No
+ORD-1345,ORD-1345-L1,2025-04-30,East,Partner,Morgan Diaz,Electronics,Headphones,7,66.02,20,369.71,296.05,73.66,5,No
+ORD-1345,ORD-1345-L2,2025-04-30,East,Partner,Morgan Diaz,Home Goods,Candle,11,593.62,20,5223.86,3251.14,1972.72,5,No
+ORD-1154,ORD-1154-L1,2025-05-04,North,In-Store,Morgan Diaz,Electronics,Laptop,11,337.12,0,3708.32,1635.88,2072.44,2,No
+ORD-1239,ORD-1239-L1,2025-05-08,West,Phone,Taylor Chen,Electronics,Tablet,5,236.51,20,946.04,555.51,390.53,1,No
+ORD-1239,ORD-1239-L2,2025-05-08,West,Phone,Taylor Chen,Home Goods,Vacuum,7,14.86,15,88.42,66.24,22.18,5,No
+ORD-1239,ORD-1239-L3,2025-05-08,West,Phone,Taylor Chen,Electronics,Tablet,21,192.81,20,3239.21,2003.33,1235.88,3,No
+ORD-1234,ORD-1234-L1,2025-05-10,East,Online,Jordan Lee,Furniture,Desk,9,338.79,0,3049.11,1831.22,1217.89,5,No
+ORD-1234,ORD-1234-L2,2025-05-10,East,Online,Jordan Lee,Apparel,Hat,16,826.92,0,13230.72,5450.68,7780.04,3,No
+ORD-1234,ORD-1234-L3,2025-05-10,East,Online,Jordan Lee,Apparel,Shoes,19,494.46,0,9394.74,4819.48,4575.26,4,No
+ORD-1300,ORD-1300-L1,2025-05-10,Central,Phone,Sam Patel,Electronics,Monitor,22,893.51,0,19657.22,12135.8,7521.42,4,No
+ORD-1232,ORD-1232-L1,2025-05-13,Central,Online,Jordan Lee,Electronics,Headphones,5,803.24,0,4016.2,1923.64,2092.56,1,No
+ORD-1232,ORD-1232-L2,2025-05-13,Central,Online,Jordan Lee,Electronics,Monitor,21,37.75,10,713.48,454.78,258.7,5,No
+ORD-1184,ORD-1184-L1,2025-05-19,West,Phone,Taylor Chen,Home Goods,Candle,21,684.83,0,14381.43,6454.34,7927.09,1,No
+ORD-1146,ORD-1146-L1,2025-05-21,West,Partner,Morgan Diaz,Home Goods,Towel Set,6,83.57,0,501.42,320.29,181.13,2,No
+ORD-1146,ORD-1146-L2,2025-05-21,West,Partner,Morgan Diaz,Apparel,Jacket,18,266.91,20,3843.5,2580.9,1262.6,4,No
+ORD-1291,ORD-1291-L1,2025-05-25,Central,Online,Taylor Chen,Furniture,Chair,19,596.92,5,10774.41,5932.11,4842.3,1,No
+ORD-1291,ORD-1291-L2,2025-05-25,Central,Online,Taylor Chen,Electronics,Smartphone,18,257.51,15,3939.9,2629.37,1310.53,2,Yes
+ORD-1291,ORD-1291-L3,2025-05-25,Central,Online,Taylor Chen,Furniture,Desk,21,320.62,0,6733.02,4417.86,2315.16,5,No
+ORD-1343,ORD-1343-L1,2025-05-28,Central,Online,Morgan Diaz,Apparel,Hat,20,337.64,15,5739.88,4616.28,1123.6,1,No
+ORD-1343,ORD-1343-L2,2025-05-28,Central,Online,Morgan Diaz,Home Goods,Blender,3,357.7,0,1073.1,522.08,551.02,1,No
+ORD-1017,ORD-1017-L1,2025-05-29,Central,In-Store,Alex Kim,Electronics,Smartphone,3,539.57,15,1375.9,1065.99,309.91,4, NO 
+ORD-1017,ORD-1017-L2,2025-05-29,Central,In-Store,Alex Kim,Furniture,Lamp,20,45.36,0,907.2,476.98,430.22,5,No
+ORD-1017,ORD-1017-L3,2025-05-29,Central,In-Store,Alex Kim,Apparel,Shoes,7,606.05,0,4242.35,2000.72,2241.63,4,No
+ORD-1017,ORD-1017-L4,2025-05-29,Central,In-Store,Alex Kim,Apparel,Hat,11,836.82,0,9205.02,3707.73,5497.29,5,No
+ORD-1241,ORD-1241-L1,2025-06-04,West,Phone,Taylor Chen,Electronics,Smartphone,13,868.46,0,11289.98,7240.39,4049.59,2,No
+ORD-1241,ORD-1241-L2,2025-06-04,West,Phone,Taylor Chen,Home Goods,Blender,3,244.14,0,732.42,310.55,421.87,1,No
+ORD-1104,ORD-1104-L1,2025-06-11,South,Phone,Taylor Chen,Home Goods,Candle,24,759.91,10,16414.06,9135.55,7278.51,5,No
+ORD-1190,ORD-1190-L1,2025-06-13,Central,In-Store,Alex Kim,Home Goods,Cookware Set,6,875.22,20,4201.06,2404.15,1796.91,1,No
+ORD-1190,ORD-1190-L2,2025-06-13,Central,In-Store,Alex Kim,Home Goods,Cookware Set,21,141.6,10,2676.24,1419.5,1256.74,1,No
+ORD-1190,ORD-1190-L3,2025-06-13,Central,In-Store,Alex Kim,Home Goods,Candle,11,772.39,10,7646.66,4566.31,3080.35,1,No
+ORD-1190,ORD-1190-L4,2025-06-13,Central,In-Store,Alex Kim,Home Goods,Blender,14,143.17,10,1803.94,1155.29,648.65,1,No
+ORD-1107,ORD-1107-L1,2025-06-15,South,Phone,Casey Ruiz,Home Goods,Vacuum,6,419.09,10,2263.09,1264.05,999.04,3,No
+ORD-1107,ORD-1107-L2,2025-06-15,South,Phone,Casey Ruiz,Apparel,Jeans,16,181.11,0,2897.76,1401.65,1496.11,3,No
+ORD-1301,ORD-1301-L1,2025-06-18,North,Online,Sam Patel,Electronics,Headphones,15,801.37,0,12020.55,6685.51,5335.04,3,Yes
+ORD-1301,ORD-1301-L2,2025-06-18,North,Online,Sam Patel,Apparel,Jacket,11,188.48,0,2073.28,1001.38,1071.9,3,No
+ORD-1301,ORD-1301-L3,2025-06-18,North,Online,Sam Patel,Electronics,Headphones,5,150.16,0,750.8,303.76,447.04,5,No
+ORD-1301,ORD-1301-L4,2025-06-18,North,Online,Sam Patel,Electronics,Smartphone,18,321.77,0,5791.86,2787.71,3004.15,3,No
+ORD-1193,ORD-1193-L1,2025-06-20,Central,Online,Jordan Lee,Furniture,Desk,8,39.42,0,315.36,213.0,102.36,2,No
+ORD-1294,ORD-1294-L1,2025-06-21,South,In-Store,Taylor Chen,Electronics,Tablet,24,622.89,20,11959.49,10403.01,1556.48,3,No
+ORD-1180,ORD-1180-L1,2025-06-22,East,Online,Sam Patel,Home Goods,Candle,4,309.53,0,1238.12,545.93,692.19,2,No
+ORD-1180,ORD-1180-L2,2025-06-22,East,Online,Sam Patel,Home Goods,Towel Set,21,292.37,15,5218.8,4240.27,978.53,5,No
+ORD-1167,ORD-1167-L1,2025-06-26,South,Partner,Morgan Diaz,Furniture,Bookshelf,3,49.06,0,147.18,98.49,48.69,5,No
+ORD-1167,ORD-1167-L2,2025-06-26,South,Partner,Morgan Diaz,Apparel,Hat,24,85.55,0,2053.2,1132.6,920.6,4,Yes
+ORD-1167,ORD-1167-L3,2025-06-26,South,Partner,Morgan Diaz,Electronics,Tablet,22,868.14,0,19099.08,9310.86,9788.22,3,No
+ORD-1167,ORD-1167-L4,2025-06-26,South,Partner,Morgan Diaz,Home Goods,Vacuum,11,412.94,0,4542.34,1918.71,2623.63,2,No
+ORD-1346,ORD-1346-L1,2025-06-26,Central,Partner,Morgan Diaz,Furniture,Bookshelf,6,712.44,0,4274.64,2330.85,1943.79,3,No
+ORD-1258,ORD-1258-L1,2025-06-28,East,Partner,Jordan Lee,Furniture,Chair,10,108.21,5,1027.99,633.37,394.62,3,No
+ORD-1258,ORD-1258-L2,2025-06-28,East,Partner,Jordan Lee,Home Goods,Cookware Set,11,27.25,0,299.75,207.1,92.65,1,No
+ORD-1258,ORD-1258-L3,2025-06-28,East,Partner,Jordan Lee,Electronics,Headphones,9,121.27,5,1036.86,674.65,362.21,2,No
+ORD-1318,ORD-1318-L1,2025-06-28,East,Partner,Taylor Chen,Apparel,Shoes,9,247.7,0,2229.3,1062.49,1166.81,5,No
+ORD-1318,ORD-1318-L2,2025-06-28,East,Partner,Taylor Chen,Furniture,Lamp,25,183.47,0,4586.75,2767.26,1819.49,2,No
+ORD-1318,ORD-1318-L3,2025-06-28,East,Partner,Taylor Chen,Electronics,Laptop,3,20.64,0,61.92,34.53,27.39,4,No
+ORD-1318,ORD-1318-L4,2025-06-28,East,Partner,Taylor Chen,Apparel,Shoes,7,40.29,10,253.83,120.59,133.24,5,No
+ORD-1284,ORD-1284-L1,2025-06-29,North,In-Store,Sam Patel,Furniture,Desk,25,293.62,5,6973.47,5052.9,1920.57,3,No
+ORD-1284,ORD-1284-L2,2025-06-29,North,In-Store,Sam Patel,Apparel,Jacket,25,177.25,0,4431.25,2018.1,2413.15,5,No
+ORD-1284,ORD-1284-L3,2025-06-29,North,In-Store,Sam Patel,Furniture,Lamp,8,215.5,0,1724.0,875.41,848.59,4,No
+ORD-1116,ORD-1116-L1,2025-07-03,South,In-Store,Sam Patel,Home Goods,Blender,22,192.8,10,3817.44,2318.66,1498.78,5,No
+ORD-1116,ORD-1116-L2,2025-07-03,South,In-Store,Sam Patel,Electronics,Tablet,5,466.78,5,2217.2,1328.39,888.81,5,No
+ORD-1116,ORD-1116-L3,2025-07-03,South,In-Store,Sam Patel,Apparel,T-Shirt,13,236.46,0,3073.98,1917.37,1156.61,5,Yes
+ORD-1142,ORD-1142-L1,2025-07-03,South,Phone,Sam Patel,Electronics,Headphones,22,777.74,10,15399.25,11802.24,3597.01,3,No
+ORD-1327,ORD-1327-L1,2025-07-03,South,In-Store,Alex Kim,Furniture,Sofa,21,26.96,10,509.54,234.24,275.3,2,Yes
+ORD-1025,ORD-1025-L1,2025-07-05,South,Phone,Morgan Diaz,Apparel,Jeans,11,600.4,0,6604.4,4067.82,2536.58,3,No
+ORD-1125,ORD-1125-L1,2025-07-09,North,partner ,Alex Kim,Electronics,Laptop,14,132.36,15,1575.08,869.87,705.21,2,Yes
+ORD-1125,ORD-1125-L2,2025-07-09,North,Online,Alex Kim,Home Goods,Vacuum,2,559.86,15,951.76,761.6,190.16,4,No
+ORD-1125,ORD-1125-L3,2025-07-09,North,Online,Alex Kim,Electronics,Laptop,18,500.95,0,9017.1,3652.09,5365.01,3,No
+ORD-1125,ORD-1125-L4,2025-07-09,North,Online,Alex Kim,Apparel,T-Shirt,17,733.7,15,10601.97,6600.31,4001.66,2,No
+ORD-1135,ORD-1135-L1,2025-07-12,South,Online,Casey Ruiz,Furniture,Sofa,10,749.83,0,7498.3,4841.57,2656.73,4,No
+ORD-1135,ORD-1135-L2,2025-07-12,South,Online,Casey Ruiz,Furniture,Bookshelf,8,234.88,0,1879.04,1154.8,724.24,4,Yes
+ORD-1032,ORD-1032-L1,13/07/2025,Central,In-Store,Morgan Diaz,Home Goods,Towel Set,1,356.07,15,302.66,214.97,87.69,4,No
+ORD-1278,ORD-1278-L1,2025-07-13,Central,Phone,Taylor Chen,Furniture,Desk,13,528.86,15,5843.9,3836.62,2007.28,3,No
+ORD-1278,ORD-1278-L2,2025-07-13,Central,Phone,Taylor Chen,Apparel,Jacket,23,559.98,0,12879.54,6948.36,5931.18,1,Yes
+ORD-1041,ORD-1041-L1,2025-07-20,East,In-Store,Casey Ruiz,Home Goods,Blender,1,520.91,5,494.86,283.17,211.69,3,No
+ORD-1041,ORD-1041-L2,2025-07-20,East,In-Store,Casey Ruiz,Electronics,Headphones,16,111.53,0,1784.48,928.31,856.17,1,No
+ORD-1041,ORD-1041-L3,2025-07-20,East,In-Store,Casey Ruiz,Electronics,Smartphone,5,731.91,0,3659.55,1557.34,2102.21,2,No
+ORD-1187,ORD-1187-L1,2025-07-21,Central,Phone,Casey Ruiz,Furniture,Desk,2,359.67,10,647.41,468.98,178.43,2,Yes
+ORD-1016,ORD-1016-L1,2025-07-23,West,In-Store,Jordan Lee,Electronics,Monitor,24,492.54,15,10047.82,5840.52,4207.3,1,No
+ORD-1132,ORD-1132-L1,2025-07-24,Central,Partner,Alex Kim,Apparel,Jeans,3,541.25,20,1299.0,807.54,491.46,4,Yes
+ORD-1243,ORD-1243-L1,2025-07-26,Central,Phone,Sam Patel,Apparel,Jacket,20,867.11,5,16475.09,11773.87,4701.22,5,Yes
+ORD-1243,ORD-1243-L2,2025-07-26,Central,Phone,Sam Patel,Furniture,Sofa,17,104.74,0,1780.58,981.01,799.57,3,No
+ORD-1243,ORD-1243-L3,2025-07-26,Central,Phone,Sam Patel,Apparel,Jeans,19,232.62,5,4198.79,3048.84,1149.95,5,No
+ORD-1243,ORD-1243-L4,2025-07-26,Central,Phone,Sam Patel,Furniture,Bookshelf,25,418.37,5,9936.29,6996.79,2939.5,1,No
+ORD-1022,ORD-1022-L1,2025-07-27,West,In-Store,Jordan Lee,Furniture,Sofa,1,169.62,0,169.62,107.66,61.96,4,No
+ORD-1022,ORD-1022-L2,2025-07-27,West,In-Store,Jordan Lee,Furniture,Bookshelf,6,710.75,0,4264.5,2195.2,2069.3,1,No
+ORD-1022,ORD-1022-L3,2025-07-27,West,In-Store,Jordan Lee,Furniture,Chair,15,321.19,20,3854.28,3076.7,777.58,2,No
+ORD-1221,ORD-1221-L1,2025-07-28,,In-Store,Taylor Chen,Apparel,T-Shirt,13,354.91,20,3691.06,3196.22,494.84,3,No
+ORD-1221,ORD-1221-L2,2025-07-28,West,In-Store,Taylor Chen,Electronics,Laptop,24,233.68,10,5047.49,3705.16,1342.33,4,No
+ORD-1221,ORD-1221-L3,2025-07-28,West,In-Store,Taylor Chen,Apparel,Jeans,18,667.21,0,12009.78,7600.32,4409.46,2,No
+ORD-1293,ORD-1293-L1,2025-07-29,South,Partner,Casey Ruiz,Electronics,Laptop,25,276.36,0,6909.0,4623.91,2285.09,1,No
+ORD-1293,ORD-1293-L2,2025-07-29,South,Partner,Casey Ruiz,Electronics,Headphones,16,129.74,15,1764.46,1365.53,398.93,3,No
+ORD-1178,ORD-1178-L1,2025-07-30,South,Partner,Taylor Chen,Home Goods,Blender,3,59.98,10,161.95,83.79,78.16,5,No
+ORD-1191,ORD-1191-L1,2025-07-30,North,Phone,Taylor Chen,Home Goods,Vacuum,13,592.75,10,6935.18,4490.05,2445.13,1,No
+ORD-1191,ORD-1191-L2,2025-07-30,North,Phone,Taylor Chen,Home Goods,Cookware Set,20,551.69,15,9378.73,5743.27,3635.46,4,No
+ORD-1191,ORD-1191-L3,2025-07-30,North,Phone,Taylor Chen,Apparel,Jacket,2,673.71,0,1347.42,901.57,445.85,1,No
+ORD-1058,ORD-1058-L1,2025-08-02,North,Partner,Sam Patel,Furniture,Lamp,12,204.9,0,2458.8,1441.51,1017.29,2,No
+ORD-1058,ORD-1058-L2,2025-08-02,North,Partner,Sam Patel,Electronics,Headphones,15,39.68,0,595.2,368.85,226.35,1,No
+ORD-1058,ORD-1058-L3,2025-08-02,North,Partner,Sam Patel,Apparel,Hat,6,188.7,20,905.76,636.1,269.66,3,No
+ORD-1152,ORD-1152-L1,2025-08-02,West,Phone,Casey Ruiz,Electronics,Laptop,21,707.65,5,14117.62,6016.85,8100.77,2,No
+ORD-1152,ORD-1152-L2,2025-08-02,West,Phone,Casey Ruiz,Electronics,Tablet,7,896.16,0,6273.12,4169.39,2103.73,3,No
+ORD-1152,ORD-1152-L3,2025-08-02,West,Phone,Casey Ruiz,Apparel,T-Shirt,21,330.78,0,6946.38,3553.44,3392.94,2,Yes
+ORD-1006,ORD-1006-L1,2025-08-03,East,In-Store,Casey Ruiz,Home Goods,Cookware Set,9,134.26,15,1027.09,686.83,340.26,3,No
+ORD-1006,ORD-1006-L2,2025-08-03,East,In-Store,Casey Ruiz,Home Goods,Candle,13,332.17,0,4318.21,2387.36,1930.85,1,No
+ORD-1094,ORD-1094-L1,2025-08-03,North,In-Store,Casey Ruiz,Apparel,Shoes,15,689.14,10,9303.39,4561.85,4741.54,3,No
+ORD-1230,ORD-1230-L1,2025-08-03,North,Partner,Casey Ruiz,Apparel,T-Shirt,9,97.39,15,745.03,503.27,241.76,3,No
+ORD-1230,ORD-1230-L2,2025-08-03,North,Partner,Casey Ruiz,Furniture,Desk,10,561.36,0,5613.6,2780.62,2832.98,4,No
+ORD-1182,ORD-1182-L1,2025-08-04,North,In-Store,Taylor Chen,Furniture,Lamp,4,843.64,0,3374.56,1685.09,1689.47,1,No
+ORD-1045,ORD-1045-L1,2025-08-05,East,Partner,Alex Kim,Apparel,Hat,9,455.41,5,3893.76,2177.75,1716.01,5,Yes
+ORD-1045,ORD-1045-L2,2025-08-05,East,Partner,Alex Kim,Home Goods,Vacuum,20,232.82,0,4656.4,2182.35,2474.05,5,No
+ORD-1337,ORD-1337-L1,2025-08-05,North,Phone,Jordan Lee,Home Goods,Towel Set,14,162.36,0,2273.04,1059.14,1213.9,3,No
+ORD-1274,ORD-1274-L1,2025-08-08,North,Partner,Sam Patel,Home Goods,Cookware Set,25,130.02,10,2925.45,1493.39,1432.06,4,No
+ORD-1248,ORD-1248-L1,2025-08-12,South,Online,Casey Ruiz,Furniture,Lamp,14,772.1,0,10809.4,4796.7,6012.7,2,No
+ORD-1251,ORD-1251-L1,2025-08-12,Central,In-Store,Sam Patel,Home Goods,Towel Set,3,349.14,0,1047.42,564.69,482.73,2,No
+ORD-1150,ORD-1150-L1,2025-08-14,East,Partner,Morgan Diaz,Electronics,Tablet,17,677.31,15,9787.13,7840.08,1947.05,3,No
+ORD-1150,ORD-1150-L2,2025-08-14,East,Partner,Morgan Diaz,Home Goods,Vacuum,19,12.19,20,185.29,151.51,33.78,1,No
+ORD-1219,ORD-1219-L1,2025-08-19,Central,Partner,Casey Ruiz,Apparel,Hat  ,1,475.22,0,475.22,244.39,230.83,1,No
+ORD-1219,ORD-1219-L2,2025-08-19,Central,Partner,Casey Ruiz,Furniture,Bookshelf,25,709.11,0,17727.75,10725.59,7002.16,2,No
+ORD-1168,ORD-1168-L1,2025-08-21,North,In-Store,Alex Kim,Home Goods,Vacuum,14,117.45,0,1644.3,1133.56,510.74,2,No
+ORD-1176,ORD-1176-L1,2025-08-21,South,In-Store,Alex Kim,Furniture,Bookshelf,18,736.48,15,11268.14,5525.0,5743.14,2,No
+ORD-1072,ORD-1072-L1,2025-08-30,West,Phone,Alex Kim,Electronics,Laptop,7,278.25,0,1947.75,1227.48,720.27,3,No
+ORD-1280,ORD-1280-L1,2025-09-03,Central,Online,Jordan Lee,Home Goods,Candle,23,29.11,0,669.53,453.06,216.47,3,No
+ORD-1120,ORD-1120-L1,2025-09-04,East,In-Store,Sam Patel,Furniture,Sofa,10,254.88,10,2293.92,1744.8,549.12,2,No
+ORD-1120,ORD-1120-L2,2025-09-04,East,In-Store,Sam Patel,Home Goods,Candle,16,51.72,0,827.52,564.76,262.76,4,No
+ORD-1120,ORD-1120-L3,2025-09-04,East,In-Store,Sam Patel,Apparel,Hat,14,142.79,5,1899.11,909.9,989.21,5,No
+ORD-1136,ORD-1136-L1,2025-09-04,West,Partner,Taylor Chen,Home Goods,Candle,2,713.73,0,1427.46,871.45,556.01,5,No
+ORD-1136,ORD-1136-L2,2025-09-04,West,Partner,Taylor Chen,Electronics,Laptop,25,230.92,15,4907.05,2924.04,1983.01,5,Yes
+ORD-1010,ORD-1010-L1,2025-09-05,East,Partner,Alex Kim,Apparel,Shoes,8,61.54,10,443.09,336.79,106.3,1,No
+ORD-1285,ORD-1285-L1,2025-09-11,West,Phone,Jordan Lee,Home Goods,Towel Set,5,155.76,0,778.8,319.05,459.75,1,No
+ORD-1285,ORD-1285-L2,2025-09-11,West,Phone,Jordan Lee,Home Goods,Cookware Set,24,607.48,0,14579.52,9146.21,5433.31,1,No
+ORD-1285,ORD-1285-L3,2025-09-11,West,Phone,Jordan Lee,Home Goods,Candle,16,622.19,20,7964.03,5348.48,2615.55,2,No
+ORD-1027,ORD-1027-L1,2025-09-13,East,Partner,Morgan Diaz,Furniture,Lamp,16,716.41,20,9170.05,7115.82,2054.23,1,No
+ORD-1336,ORD-1336-L1,2025-09-16,West,In-Store,Morgan Diaz,Home Goods,Cookware Set,21,329.14,0,6911.94,3184.08,3727.86,2,Yes
+ORD-1143,ORD-1143-L1,2025-09-17,West,Online,Sam Patel,Home Goods,Candle,6,734.22,15,3744.52,2820.22,924.3,5,No
+ORD-1019,ORD-1019-L1,2025-09-18,Central,Online,Casey Ruiz,Apparel,T-Shirt,5,245.36,0,1226.8,763.96,462.84,2,No
+ORD-1019,ORD-1019-L2,2025-09-18,Central,Online,Casey Ruiz,Furniture,Bookshelf,7,621.86,20,3482.42,2085.95,1396.47,4,No
+ORD-1019,ORD-1019-L3,2025-09-18,Central,Online,Casey Ruiz,Electronics,Laptop,21,386.97,0,8126.37,3358.03,4768.34,3,No
+ORD-1141,ORD-1141-L1,2025-09-20,South,Partner,Taylor Chen,Electronics,Smartphone,7,257.72,15,1533.43,1159.31,374.12,1,No
+ORD-1110,ORD-1110-L1,2025-09-22,Central,In-Store,Jordan Lee,Furniture,Chair,2,99.17,0,198.34,122.02,76.32,1,No
+ORD-1070,ORD-1070-L1,2025-09-28,Central,Online,Taylor Chen,Apparel,T-Shirt,6,253.2,20,1215.36,748.5,466.86,3,No
+ORD-1070,ORD-1070-L2,2025-09-28,Central,Online,Taylor Chen,Furniture,Chair,19,595.03,0,11305.57,5003.42,6302.15,1,No
+ORD-1070,ORD-1070-L3,2025-09-28,Central,Online,Taylor Chen,Furniture,Sofa,14,413.73,0,5792.22,2959.92,2832.3,3,No
+ORD-1070,ORD-1070-L4,2025-09-28,Central,Online,Taylor Chen,Electronics,Laptop,5,150.08,10,675.36,311.36,364.0,1,No
+ORD-1153,ORD-1153-L1,2025-10-02,East,In-Store,Morgan Diaz,Electronics,Laptop,7,434.35,0,3040.45,1757.7,1282.75,5,No
+ORD-1153,ORD-1153-L2,2025-10-02,East,In-Store,Morgan Diaz,Electronics,Laptop,23,315.77,0,7262.71,5058.09,2204.62,4,No
+ORD-1223,ORD-1223-L1,2025-10-02,Central,Phone,Morgan Diaz,Apparel,T-Shirt,23,292.88,0,6736.24,4628.45,2107.79,5,Yes
+ORD-1223,ORD-1223-L2,2025-10-02,Central,Phone,Morgan Diaz,Furniture,Sofa,18,487.95,0,8783.1,4433.89,4349.21,2,No
+ORD-1223,ORD-1223-L3,2025-10-02,Central,Phone,Morgan Diaz,Apparel,Shoes,10,204.41,20,1635.28,1196.79,438.49,4,No
+ORD-1226,ORD-1226-L1,2025-10-03,North,In-Store,Casey Ruiz,Furniture,Sofa,4,192.96,20,617.47,471.46,146.01,4,No
+ORD-1226,ORD-1226-L2,2025-10-03,North,In-Store,Casey Ruiz,Electronics,Smartphone,1,418.7,0,418.7,172.24,246.46,1,Yes
+ORD-1331,ORD-1331-L1,2025-10-04,East,Phone,Morgan Diaz,Furniture,Chair,4,888.07,0,3552.28,2080.49,1471.79,5,No
+ORD-1076,ORD-1076-L1,2025-10-05,West,Partner,Taylor Chen,Home Goods,Candle,21,575.41,10,10875.25,6005.1,4870.15,3,No
+ORD-1076,ORD-1076-L2,2025-10-05,West,Partner,Taylor Chen,Electronics,Tablet,15,571.92,20,6863.04,4138.43,2724.61,1,No
+ORD-1076,ORD-1076-L3,2025-10-05,West,Partner,Taylor Chen,Electronics,Headphones,15,412.19,0,6182.85,3157.09,3025.76,3,Yes
+ORD-1325,ORD-1325-L1,2025-10-09,West,In-Store,Jordan Lee,Electronics,Monitor,8,445.41,0,3563.28,2272.74,1290.54,3,No
+ORD-1328,ORD-1328-L1,2025-10-09,North,Phone,Alex Kim,Furniture,Lamp,3,737.83,0,2213.49,961.22,1252.27,5,No
+ORD-1328,ORD-1328-L2,2025-10-09,North,Phone,Alex Kim,Furniture,Desk,7,389.32,20,2180.19,1773.5,406.69,4,No
+ORD-1229,ORD-1229-L1,2025-10-11,South,Phone,Casey Ruiz,Apparel,T-Shirt,18,788.53,0,14193.54,6202.16,7991.38,1,No
+ORD-1229,ORD-1229-L2,2025-10-11,South,Phone,Casey Ruiz,apparel,Candle,18,852.8,0,15350.4,7107.48,8242.92,3,No
+ORD-1229,ORD-1229-L3,2025-10-11,South,Phone,Casey Ruiz,Furniture,Chair,6,206.49,20,991.15,589.52,401.63,1,No
+ORD-1020,ORD-1020-L1,2025-10-14,East,In-Store,Casey Ruiz,Home Goods,Candle,1,109.56,15,93.13,73.53,19.6,5,Yes
+ORD-1213,ORD-1213-L1,2025-10-14,East,In-Store,Casey Ruiz,Apparel,Shoes,2,736.75,20,1178.8,790.29,388.51,5,No
+ORD-1213,ORD-1213-L2,2025-10-14,East,In-Store,Casey Ruiz,Home Goods,Vacuum,23,412.74,0,9493.02,5959.68,3533.34,2,Yes
+ORD-1338,ORD-1338-L1,2025-10-15,Central,In-Store,Taylor Chen,Furniture,Desk,14,772.7,5,10276.91,7125.25,3151.66,2,No
+ORD-1338,ORD-1338-L2,2025-10-15,Central,In-Store,Taylor Chen,Home Goods,Vacuum,1,659.71,15,560.75,436.58,124.17,2,No
+ORD-1338,ORD-1338-L3,2025-10-15,Central,In-Store,Taylor Chen,Furniture,Lamp,5,823.23,0,4116.15,2162.34,1953.81,1,Yes
+ORD-1338,ORD-1338-L4,2025-10-15,Central,In-Store,Taylor Chen,Home Goods,Candle,2,388.86,5,738.83,422.91,315.92,1,No
+ORD-1001,ORD-1001-L1,2025-10-16,North,Online,Casey Ruiz,Furniture,Chair,24,101.21,15,2064.68,1621.76,442.92,1,No
+ORD-1113,ORD-1113-L1,2025-10-16,West,Partner,Taylor Chen,Home Goods,Blender,6,883.69,5,5037.03,2635.59,2401.44,2,Yes
+ORD-1252,ORD-1252-L1,2025-10-17,East,Partner,Casey Ruiz,Home Goods,Blender,3,154.17,0,462.51,228.5,234.01,3,No
+ORD-1252,ORD-1252-L2,2025-10-17,East,Partner,Casey Ruiz,Home Goods,Vacuum,15,705.06,0,10575.9,6603.26,3972.64,5,No
+ORD-1310,ORD-1310-L1,2025-10-19,West,Partner,Casey Ruiz,Home Goods,Candle,6,414.4,5,2362.08,1406.35,955.73,4,No
+ORD-1310,ORD-1310-L2,2025-10-19,West,Partner,Casey Ruiz,Furniture,Chair,14,548.06,10,6905.56,4215.82,2689.74,2,No
+ORD-1137,ORD-1137-L1,2025-10-22,West,Phone,Morgan Diaz,Electronics,Headphones,8,464.49,10,3344.33,2108.41,1235.92,5,No
+ORD-1257,ORD-1257-L1,2025-10-23,West,Partner,Jordan Lee,Home Goods,Cookware Set,17,690.43,10,10563.58,7538.55,3025.03,3,No
+ORD-1298,ORD-1298-L1,2025-10-23,South,Partner,Jordan Lee,Apparel,Hat,14,835.72,0,11700.08,7611.27,4088.81,3,No
+ORD-1298,ORD-1298-L2,2025-10-23,South,Partner,Jordan Lee,Apparel,Jeans,18,26.65,10,431.73,290.53,141.2,3,Yes
+ORD-1224,ORD-1224-L1,2025-10-26,North,Online,Casey Ruiz,Furniture,Lamp,20,227.0,0,4540.0,2745.63,1794.37,3,No
+ORD-1095,ORD-1095-L1,2025-10-27,East,In-Store,Alex Kim,Furniture,Sofa,17,354.41,10,5422.47,2622.84,2799.63,3,No
+ORD-1235,ORD-1235-L1,2025-10-31,North,Phone,Morgan Diaz,Furniture,Lamp,13,324.07,20,3370.33,2121.24,1249.09,4,No
+ORD-1235,ORD-1235-L2,2025-10-31,North,Phone,Morgan Diaz,Electronics,Monitor,5,401.5,0,2007.5,849.43,1158.07,3,No
+ORD-1235,ORD-1235-L3,2025-10-31,North,Phone,Morgan Diaz,Furniture,Chair,12,545.79,20,5239.58,2852.29,2387.29,2,No
+ORD-1235,ORD-1235-L4,2025-10-31,North,Phone,Morgan Diaz,Apparel,T-Shirt,16,610.94,5,9286.29,4527.91,4758.38,2,No
+ORD-1069,ORD-1069-L1,2025-11-03,West,In-Store,Alex Kim,Apparel,T-Shirt,25,257.92,0,6448.0,4140.69,2307.31,5,No
+ORD-1157,ORD-1157-L1,2025-11-05,East,In-Store,Taylor Chen,Furniture,Sofa,10,585.08,20,4680.64,3916.37,764.27,2,No
+ORD-1157,ORD-1157-L2,2025-11-05,East,In-Store,Taylor Chen,Electronics,Smartphone,16,577.88,0,9246.08,5163.81,4082.27,1,No
+ORD-1266,ORD-1266-L1,2025-11-05,Central,Partner,Jordan Lee,Home Goods,Candle,5,555.59,0,2777.95,1452.7,1325.25,3,No
+ORD-1266,ORD-1266-L2,2025-11-05,Central,Partner,Jordan Lee,Electronics,Laptop,5,168.98,0,844.9,389.18,455.72,4,No
+ORD-1023,ORD-1023-L1,2025-11-06,South,Partner,Sam Patel,Electronics,Headphones,12,580.91,5,6622.37,4209.43,2412.94,5,No
+ORD-1231,ORD-1231-L1,2025-11-06,East,In-Store,Taylor Chen,Apparel,Hat,6,14.29,0,85.74,54.5,31.24,4,No
+ORD-1231,ORD-1231-L2,2025-11-06,East,In-Store,Taylor Chen,Apparel,Jacket,22,662.34,5,13842.91,7851.91,5991.0,3,No
+ORD-1279,ORD-1279-L1,2025-11-07,East,Phone,Alex Kim,Home Goods,Cookware Set,13,462.59,15,5111.62,2585.16,2526.46,3,No
+ORD-1071,ORD-1071-L1,2025-11-08,West,Partner,Taylor Chen,Apparel,Jacket,25,465.98,0,11649.5,6162.28,5487.22,3,No
+ORD-1206,ORD-1206-L1,2025-11-08,North,Online,Alex Kim,Home Goods,Towel Set,13,119.99,0,1559.87,845.95,713.92,2,No
+ORD-1206,ORD-1206-L2,2025-11-08,North,Online,Alex Kim,Electronics,Headphones,14,598.87,15,7126.55,4662.38,2464.17,5,No
+ORD-1028,ORD-1028-L1,2025-11-10,Central,Phone,Alex Kim,Furniture,Bookshelf,8,727.83,0,5822.64,2371.72,3450.92,2,No
+ORD-1028,ORD-1028-L2,2025-11-10,Central,Phone,Alex Kim,Electronics,Tablet,14,798.65,10,10062.99,5124.64,4938.35,4,No
+ORD-1028,ORD-1028-L3,2025-11-10,Central,Phone,Alex Kim,Furniture,Chair,21,621.97,20,10449.1,8596.11,1852.99,1,No
+ORD-1246,ORD-1246-L1,2025-11-10,West,Online,Taylor Chen,Home Goods,Vacuum,20,290.71,10,5232.78,3841.04,1391.74,4,No
+ORD-1246,ORD-1246-L2,2025-11-10,West,Online,Taylor Chen,Apparel,Hat,8,677.64,0,5421.12,2256.51,3164.61,4,No
+ORD-1246,ORD-1246-L3,2025-11-10,West,Online,Taylor Chen,Electronics,Monitor,12,360.4,15,3676.08,2736.61,939.47,4,No
+ORD-1246,ORD-1246-L4,2025-11-10,West,Online,Taylor Chen,Home Goods,Vacuum,23,17.48,15,341.73,186.24,155.49,5,No
+ORD-1026,ORD-1026-L1,2025-11-13,West,Phone,Morgan Diaz,Furniture,Chair,14,601.78,5,8003.67,5081.87,2921.8,2,No
+ORD-1026,ORD-1026-L2,2025-11-13,West,Phone,Morgan Diaz,Apparel,Hat,18,752.01,0,13536.18,6579.59,6956.59,4,No
+ORD-1081,ORD-1081-L1,2025-11-17,West,Phone,Alex Kim,Furniture,Chair,11,853.41,5,8918.13,4295.74,4622.39,2,No
+ORD-1309,ORD-1309-L1,2025-11-17,South,In-Store,Alex Kim,Electronics,Smartphone,24,797.54,15,16269.82,10164.24,6105.58,2,No
+ORD-1144,ORD-1144-L1,2025-11-19,South,Phone,Alex Kim,Electronics,Smartphone,12,627.15,10,6773.22,3887.37,2885.85,5,No
+ORD-1341,ORD-1341-L1,2025-11-21,East,Online,Alex Kim,Home Goods,Candle,2,335.35,0,670.7,398.7,272.0,1,No
+ORD-1155,ORD-1155-L1,2025-11-24,South,Online,Taylor Chen,Furniture,Sofa,12,652.95,15,6660.09,4893.06,1767.03,4,No
+ORD-1155,ORD-1155-L2,2025-11-24,South,Online,Taylor Chen,Home Goods,Cookware Set,3,807.96,0,2423.88,1516.7,907.18,5,No
+ORD-1115,ORD-1115-L1,2025-11-27,Central,Online,Taylor Chen,Apparel,T-Shirt,19,109.86,20,1669.87,1177.88,491.99,5,No
+ORD-1329,ORD-1329-L1,2025-12-01,Central,In-Store,Sam Patel,Furniture,Desk,19,164.36,0,3122.84,1362.26,1760.58,2,No
+ORD-1329,ORD-1329-L2,2025-12-01,Central,In-Store,Sam Patel,Furniture,Bookshelf,18,156.85,0,2823.3,1913.36,909.94,1,No
+ORD-1329,ORD-1329-L3,2025-12-01,Central,In-Store,Sam Patel,Home Goods,Cookware Set,1,792.86,0,792.86,318.65,474.21,2,No
+ORD-1099,ORD-1099-L1,2025-12-02,West,Phone,Morgan Diaz,Electronics,Smartphone,15,379.89,5,5413.43,2628.12,2785.31,5,No
+ORD-1204,ORD-1204-L1,2025-12-04,South,Phone,Morgan Diaz,Furniture,Chair,13,27.01,0,351.13,217.05,134.08,2,No
+ORD-1208,ORD-1208-L1,2025-12-05,West,Phone,Jordan Lee,Electronics,Laptop,19,605.42,0,11502.98,7877.63,3625.35,5,Yes
+ORD-1040,ORD-1040-L1,2025-12-07,South,In-Store,Jordan Lee,Apparel,Jeans,25,476.92,0,11923.0,8276.39,3646.61,2,No
+ORD-1040,ORD-1040-L2,2025-12-07,South,In-Store,Jordan Lee,Apparel,Jacket,10,22.58,10,203.22,98.89,104.33,1,No
+ORD-1271,ORD-1271-L1,2025-12-07,East,In-Store,Alex Kim,Apparel,Jacket,5,245.83,10,1106.24,583.79,522.45,3,No
+ORD-1220,ORD-1220-L1,2025-12-08,East,In-Store,Taylor Chen,Home Goods,Blender,20,782.54,15,13303.18,8898.5,4404.68,2,No
+ORD-1047,ORD-1047-L1,2025-12-11,West,Phone,Casey Ruiz,Electronics,Tablet,3,289.91,0,869.73,378.14,491.59,4,No
+ORD-1047,ORD-1047-L2,2025-12-11,West,Phone,Casey Ruiz,Electronics,Monitor,15,377.78,0,5666.7,3148.03,2518.67,5,No
+ORD-1047,ORD-1047-L3,2025-12-11,West,Phone,Casey Ruiz,Home Goods,Blender,7,247.67,0,1733.69,1175.97,557.72,4,No
+ORD-1047,ORD-1047-L4,2025-12-11,West,Phone,Casey Ruiz,Home Goods,Blender,1,876.09,10,788.48,560.52,227.96,2,No
+ORD-1218,ORD-1218-L1,2025-12-19,Central,Phone,Casey Ruiz,Furniture,Chair,7,565.5,0,3958.5,2398.79,1559.71,2,No
+ORD-1218,ORD-1218-L2,2025-12-19,Central,Phone,Casey Ruiz,Furniture,Lamp,18,627.93,0,11302.74,6929.78,4372.96,3,No
+ORD-1330,ORD-1330-L1,2025-12-24,Central,Phone,Morgan Diaz,Home Goods,Cookware Set,7,137.34,0,961.38,535.42,425.96,4,No
+ORD-1330,ORD-1330-L2,2025-12-24,Central,Phone,Morgan Diaz,Furniture,Lamp,23,43.47,0,999.81,615.04,384.77,5,No
+ORD-1080,ORD-1080-L1,2025-12-26,North,Phone,Taylor Chen,Apparel,Jacket,22,635.51,15,11884.04,9774.96,2109.08,5,No
+ORD-1105,ORD-1105-L1,2025-12-26,Central,Phone,Morgan Diaz,Apparel,Shoes,22,107.54,5,2247.59,1360.64,886.95,1,No
+ORD-1105,ORD-1105-L2,2025-12-26,Central,Phone,Morgan Diaz,Apparel,Jeans,19,212.5,0,4037.5,2321.79,1715.71,2,No
+ORD-1105,ORD-1105-L3,2025-12-26,Central,Phone,Morgan Diaz,Home Goods,Cookware Set,22,225.54,10,4465.69,3396.22,1069.47,1,No
+ORD-1268,ORD-1268-L1,2025-12-26,North,Phone,Taylor Chen,Electronics,Headphones,3,850.69,10,2296.86,1095.18,1201.68,2,No
+ORD-1148,ORD-1148-L1,2025-12-28,Central,Partner,Jordan Lee,Furniture,Chair,2,517.36,10,931.25,501.14,430.11,5,No
+ORD-1148,ORD-1148-L2,2025-12-28,Central,Partner,Jordan Lee,Apparel,Shoes,19,247.93,20,3768.54,2611.24,1157.3,1,No
+ORD-1286,ORD-1286-L1,2024-02-12,Central,Partner,Casey Ruiz,Electronics,Monitor,4,411.92,20,1318.14,1092.96,225.18,2,No
+ORD-1201,ORD-1201-L1,2025-04-13,South,Phone,Casey Ruiz,Electronics,Tablet,11,571.61,0,6287.71,3106.28,3181.43,1,Yes
