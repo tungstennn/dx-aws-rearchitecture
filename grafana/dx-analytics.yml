@@ -1,7 +1,7 @@
 apiVersion: dashboard.grafana.app/v2
 kind: Dashboard
 metadata:
-  name: adpnjjh
+  name: adlsdtc
 spec:
   annotations:
     - kind: AnnotationQuery
@@ -33,80 +33,7 @@ spec:
                   hidden: false
                   query:
                     datasource:
-                      name: efxdw7vo9jvnka
-                    group: grafana-postgresql-datasource
-                    kind: DataQuery
-                    spec:
-                      dataset: analytics
-                      editorMode: code
-                      format: table
-                      rawQuery: true
-                      rawSql: |-
-                        SELECT
-                            SUM(revenue) AS total_revenue
-                        FROM sales;
-                      sql:
-                        columns:
-                          - parameters: []
-                            type: function
-                        groupBy:
-                          - property:
-                              type: string
-                            type: groupBy
-                        limit: 50
-                    version: v0
-                  refId: A
-            queryOptions: {}
-            transformations: []
-        description: ''
-        id: 1
-        links: []
-        title: Total Revenue
-        vizConfig:
-          group: stat
-          kind: VizConfig
-          spec:
-            fieldConfig:
-              defaults:
-                color:
-                  mode: thresholds
-                thresholds:
-                  mode: absolute
-                  steps:
-                    - color: green
-                      value: 0
-                    - color: red
-                      value: 80
-                unit: currencyGBP
-              overrides: []
-            options:
-              colorMode: value
-              graphMode: area
-              justifyMode: auto
-              orientation: auto
-              percentChangeColorMode: standard
-              reduceOptions:
-                calcs:
-                  - lastNotNull
-                fields: ''
-                values: false
-              showPercentChange: false
-              textMode: auto
-              wideLayout: true
-          version: 13.2.1
-    panel-2:
-      kind: Panel
-      spec:
-        data:
-          kind: QueryGroup
-          spec:
-            queries:
-              - kind: PanelQuery
-                spec:
-                  hidden: false
-                  query:
-                    datasource:
-                      name: efxdw7vo9jvnka
+                      name: bfxg4pae5t5vkc
                     group: grafana-postgresql-datasource
                     kind: DataQuery
                     spec:
@@ -117,8 +44,8 @@ spec:
                       rawSql: |-
                         SELECT
                             DATE_TRUNC('month', order_date) AS "time",
-                            SUM(cost) AS cost,
-                            SUM(revenue) AS revenue
+                            SUM(revenue) AS revenue,
+                            SUM(cost) AS cost 
                         FROM sales
                         GROUP BY 1
                         ORDER BY 1;
@@ -136,7 +63,7 @@ spec:
             queryOptions: {}
             transformations: []
         description: ''
-        id: 2
+        id: 1
         links: []
         title: Revenue & Cost Over Time
         vizConfig:
@@ -173,9 +100,88 @@ spec:
                   spanNulls: false
                   stacking:
                     group: A
-                    mode: none
+                    mode: normal
                   thresholdsStyle:
                     mode: 'off'
+                thresholds:
+                  mode: absolute
+                  steps:
+                    - color: green
+                      value: 0
+                    - color: red
+                      value: 80
+              overrides: []
+            options:
+              legend:
+                calcs: []
+                displayMode: list
+                placement: bottom
+                showLegend: true
+              tooltip:
+                hideZeros: false
+                mode: single
+                sort: none
+          version: 13.2.1
+    panel-2:
+      kind: Panel
+      spec:
+        data:
+          kind: QueryGroup
+          spec:
+            queries:
+              - kind: PanelQuery
+                spec:
+                  hidden: false
+                  query:
+                    datasource:
+                      name: bfxg4pae5t5vkc
+                    group: grafana-postgresql-datasource
+                    kind: DataQuery
+                    spec:
+                      dataset: analytics
+                      editorMode: code
+                      format: table
+                      rawQuery: true
+                      rawSql: |-
+                        SELECT
+                            SUM(revenue) AS "Total Revenue",
+                            SUM(cost) AS "Total Cost"
+                        FROM sales;
+                      sql:
+                        columns:
+                          - name: SUM
+                            parameters:
+                              - name: revenue
+                                type: functionParameter
+                            type: function
+                          - name: SUM
+                            parameters:
+                              - name: cost
+                                type: functionParameter
+                            type: function
+                        groupBy:
+                          - property:
+                              name: order_date
+                              type: string
+                            type: groupBy
+                        limit: 50
+                      table: sales
+                    version: v0
+                  refId: A
+            queryOptions: {}
+            transformations: []
+        description: ''
+        id: 2
+        links: []
+        title: ''
+        vizConfig:
+          group: stat
+          kind: VizConfig
+          spec:
+            fieldConfig:
+              defaults:
+                color:
+                  mode: thresholds
                 thresholds:
                   mode: absolute
                   steps:
@@ -186,16 +192,19 @@ spec:
                 unit: currencyGBP
               overrides: []
             options:
-              legend:
-                calcs: []
-                displayMode: list
-                enableFacetedFilter: false
-                placement: bottom
-                showLegend: true
-              tooltip:
-                hideZeros: false
-                mode: single
-                sort: none
+              colorMode: value
+              graphMode: area
+              justifyMode: auto
+              orientation: auto
+              percentChangeColorMode: standard
+              reduceOptions:
+                calcs:
+                  - lastNotNull
+                fields: ''
+                values: false
+              showPercentChange: false
+              textMode: auto
+              wideLayout: true
           version: 13.2.1
     panel-3:
       kind: Panel
@@ -209,7 +218,7 @@ spec:
                   hidden: false
                   query:
                     datasource:
-                      name: efxdw7vo9jvnka
+                      name: bfxg4pae5t5vkc
                     group: grafana-postgresql-datasource
                     kind: DataQuery
                     spec:
@@ -218,6 +227,7 @@ spec:
                       format: table
                       rawQuery: true
                       rawSql: |-
+                        -- Revenue by category
                         SELECT
                             category,
                             SUM(revenue) AS revenue
@@ -286,7 +296,7 @@ spec:
                   hidden: false
                   query:
                     datasource:
-                      name: efxdw7vo9jvnka
+                      name: bfxg4pae5t5vkc
                     group: grafana-postgresql-datasource
                     kind: DataQuery
                     spec:
@@ -295,6 +305,7 @@ spec:
                       format: table
                       rawQuery: true
                       rawSql: |-
+                        -- Revenue by region
                         SELECT
                             region,
                             SUM(revenue) AS revenue
@@ -325,16 +336,15 @@ spec:
             fieldConfig:
               defaults:
                 color:
-                  fixedColor: '#73BF69'
-                  mode: palette-classic
+                  mode: continuous-viridis
                 custom:
                   axisBorderShow: false
                   axisCenteredZero: false
                   axisColorMode: text
                   axisLabel: ''
                   axisPlacement: auto
-                  fillOpacity: 80
-                  gradientMode: none
+                  fillOpacity: 100
+                  gradientMode: hue
                   hideFrom:
                     legend: false
                     tooltip: false
@@ -355,14 +365,15 @@ spec:
               overrides: []
             options:
               barRadius: 0
-              barWidth: 0.97
+              barWidth: 0.9
+              colorByField: revenue
               fullHighlight: false
-              groupWidth: 0.7
+              groupWidth: 0.8
               legend:
                 calcs: []
                 displayMode: list
                 placement: bottom
-                showLegend: true
+                showLegend: false
               orientation: auto
               showValue: auto
               stacking: none
@@ -370,8 +381,9 @@ spec:
                 hideZeros: false
                 mode: single
                 sort: none
+              xField: time
               xTickLabelRotation: 0
-              xTickLabelSpacing: 0
+              xTickLabelSpacing: 100
           version: 13.2.1
   layout:
     kind: GridLayout
