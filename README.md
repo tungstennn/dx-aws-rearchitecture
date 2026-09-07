@@ -1,42 +1,58 @@
-# dx-aws-rearchitecture
+# DX AWS Re-architecture
 
-This project demonstrates a simple end-to-end data pipeline for ingesting, transforming, storing and visualising sales data.
+This project is a small proof-of-concept analytics platform built for the DX AWS Re-architecture technical exercise.
 
-## Architecture
+The local solution ingests sample sales data into PostgreSQL, transforms it with SQL, and exposes the reporting data through Grafana. The AWS design shows how the same workload could be productionised using managed AWS services.
+
+## Local Proof of Concept
 
 ```text
 Sales CSV
    ↓
 Python ingestion
    ↓
-PostgreSQL
+PostgreSQL staging
    ↓
 SQL transformation
    ↓
-Sales reporting table
+Reporting tables
    ↓
-Grafana dashboards
+Grafana dashboard
 ```
 
-The solution is intentionally lightweight for the technical exercise, while keeping the structure easy to extend into a production AWS architecture.
+### Tech Stack
 
-## Tech Stack
+- Python
+- PostgreSQL 16
+- SQL
+- Docker / Docker Compose
+- Grafana
 
-* Python
-* PostgreSQL 16
-* Docker / Docker Compose
-* SQL
-* Grafana
+## AWS Architecture
+
+![AWS production architecture](images/aws-architecture.jpeg)
+
+The proposed AWS design uses:
+
+- **Amazon S3** for the landing and archive layer.
+- **Amazon Redshift** as the analytics warehouse, organised into Bronze, Silver and Gold data layers.
+- **AWS Lambda + Step Functions** for SQL execution and ETL orchestration.
+- **Amazon EventBridge** for scheduled pipeline execution.
+- **Amazon ECS Fargate** to run Grafana across private subnets.
+- **Internal Application Load Balancer** as the private application entry point.
+- **GlobalProtect / corporate network connectivity** so employees can access the platform without exposing it publicly.
+- **IAM, Security Groups and Secrets Manager** for least-privilege access and credential management.
+- **Amazon CloudWatch** for logs, metrics and alarms.
+
+The application and data platform remain private within the VPC. Transformations are primarily performed inside the data warehouse so the platform can make use of Redshift's processing capabilities while retaining source data in S3 for replay and audit purposes.
 
 ## Running the Project
 
-### 1. Start the environment
+### 1. Start PostgreSQL and Grafana
 
 ```bash
 docker compose up -d
 ```
-
-This starts PostgreSQL and Grafana.
 
 ### 2. Set up Python
 
@@ -49,38 +65,18 @@ pip install pandas sqlalchemy psycopg2-binary python-dotenv
 
 ### 3. Run the ingestion pipeline
 
-Run the Python ingestion script to load the source sales CSV into PostgreSQL.
-
 ```bash
 python3 etl/load_sales.py
 ```
 
-### 4. Transform the data
-
-The SQL transformation layer cleans and prepares the source data for reporting, including standardising fields and calculating metrics such as:
-
-* Revenue
-* Cost
-* Profit
-* Returns
-* Customer satisfaction
-
-### 5. View the dashboard
-
-Open Grafana at:
+### 4. Open Grafana
 
 ```text
 http://localhost:3000
 ```
 
-The dashboard provides visualisations of the processed sales data.
-
 ## Production Considerations
 
-A production implementation could replace the local components with AWS services such as:
+For production, I would add automated deployments, incremental processing, data-quality checks, Redshift/S3 backup and recovery controls, CloudWatch alerting, and appropriate scaling based on workload demand.
 
-```text
-S3 → Glue/Lambda → Redshift → Grafana / BI Layer
-```
-
-Additional improvements could include automated orchestration, data-quality checks, CI/CD, monitoring and incremental data processing.
+The architecture is intentionally kept high-level and avoids unnecessary complexity for the scope of this exercise.
