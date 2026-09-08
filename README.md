@@ -28,24 +28,6 @@ Grafana dashboard
 - Docker / Docker Compose
 - Grafana
 
-## AWS Architecture
-
-![AWS production architecture](images/aws-architecture.jpeg)
-
-The proposed AWS design uses:
-
-- **Amazon S3** for the landing and archive layer.
-- **Amazon Redshift** as the analytics warehouse, organised into Bronze, Silver and Gold data layers.
-- **AWS Lambda + Step Functions** for SQL execution and ETL orchestration.
-- **Amazon EventBridge** for scheduled pipeline execution.
-- **Amazon ECS Fargate** to run Grafana across private subnets.
-- **Internal Application Load Balancer** as the private application entry point.
-- **GlobalProtect / corporate network connectivity** so employees can access the platform without exposing it publicly.
-- **IAM, Security Groups and Secrets Manager** for least-privilege access and credential management.
-- **Amazon CloudWatch** for logs, metrics and alarms.
-
-The application and data platform remain private within the VPC. Transformations are primarily performed inside the data warehouse so the platform can make use of Redshift's processing capabilities while retaining source data in S3 for replay and audit purposes.
-
 ## Running the Project
 
 ### 1. Start PostgreSQL and Grafana
@@ -74,6 +56,26 @@ python3 etl/load_sales.py
 ```text
 http://localhost:3000
 ```
+
+
+## AWS Re-architecture
+
+![AWS production architecture](images/aws-architecture.jpeg)
+
+The proposed AWS design uses:
+
+- **Amazon S3** for the landing and archive layer.
+- **Amazon Redshift** as the analytics warehouse, organised into Bronze, Silver and Gold data layers.
+- **AWS Lambda + Step Functions** for SQL execution and ETL orchestration.
+- **Amazon EventBridge** for scheduled pipeline execution.
+- **Amazon ECS Fargate** to run Grafana across private subnets.
+- **Internal Application Load Balancer** as the private application entry point.
+- **GlobalProtect / corporate network connectivity** so employees can access the platform without exposing it publicly.
+- **IAM, Security Groups and Secrets Manager** for least-privilege access and credential management.
+- **Amazon CloudWatch** for logs, metrics and alarms.
+
+The application and data platform remain private within the VPC. Transformations are primarily performed inside the data warehouse so the platform can make use of Redshift's processing capabilities while retaining source data in S3 for replay and audit purposes.
+
 
 ## Production Considerations
 
