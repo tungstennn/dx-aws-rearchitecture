@@ -1,6 +1,6 @@
 # DX AWS Re-architecture
 
-This project is a small proof-of-concept analytics platform built for the DX AWS Re-architecture technical exercise.
+This project is a small POC analytics platform built for the DX AWS Re-architecture technical exercise.
 
 The local solution ingests sample sales data into PostgreSQL, transforms it with SQL, and exposes the reporting data through Grafana. The AWS design shows how the same workload could be productionised using managed AWS services.
 
