@@ -42,7 +42,7 @@ docker compose up -d
 python3 -m venv .venv
 source .venv/bin/activate
 
-pip install pandas sqlalchemy psycopg2-binary python-dotenv
+pip install requirements.txt
 ```
 
 ### 3. Run the ingestion pipeline
